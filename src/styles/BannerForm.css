@@ -1,0 +1,61 @@
+
+.glass-form-wrapper {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2); /* More white tint */
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+.glass-form-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.glass-form .form-control,
+.glass-form .form-select {
+  background: rgba(255, 255, 255, 0.9);  /* brighter background for inputs */
+  border: 1px solid #ccc;
+  color: #333;
+  font-weight: 500;
+}
+
+.glass-form .form-control::placeholder {
+  color: #888;
+}
+
+.glass-form .form-control:focus,
+.glass-form .form-select:focus {
+  background: #ffffff;
+  color: #000;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.glass-submit-btn {
+  background: #ff4d4f;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 24px;
+  transition: background 0.3s;
+}
+
+.glass-submit-btn:hover {
+  background: #e63946;
+}
+
+.error-text {
+  font-size: 11px;
+  color: #d90000;
+}
+
+/* Fix dropdown arrow visibility */
+.glass-form .form-select option {
+  background-color: #fff;
+  color: #000;
+}

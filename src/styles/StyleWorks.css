@@ -1,0 +1,77 @@
+/* General styling */
+.div-cardbox {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .h2-workcards {
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+  }
+  
+  .para-workcards {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design for Tablets (768px) */
+  @media (max-width: 768px) {
+    .row {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .col-md-6 {
+      width: 50%; /* Keep 2-column layout */
+      padding: 10px; /* Adjust spacing */
+    }
+  
+    .div-cardbox {
+      width: 90%; /* Reduce card size */
+    }
+  
+    /* Reduce image sizes */
+    .div-cardbox img {
+      width: 75%;
+    }
+  
+    .div-cardbox img[alt="background"] {
+      top: -50%;
+    }
+  
+    .div-cardbox img[alt="mobile-ui"] {
+      width: 50%; /* Reduce UI/UX image */
+      top: -40%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .div-cardbox img[alt="logo"] {
+      width: 18%; /* Reduce logo size */
+      top: -80%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .div-cardbox img[alt="card1"] {
+      width: 85%; /* Reduce card image */
+    }
+  
+    /* Reduce text size */
+    .h2-workcards {
+      font-size: 16px;
+    }
+  
+    .para-workcards {
+      font-size: 12px;
+    }
+  
+    .animated-div {
+      top: 30%;
+      width: 85%;
+      margin: 0 auto;
+    }
+  }
+  
