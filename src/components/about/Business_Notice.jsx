@@ -417,7 +417,7 @@ export default function Business_Notice() {
               }}
               className="lens-left"
             >
-              <div
+              {/* <div
                 ref={leftEyeRef}
                 style={{
                   width: "30px",
@@ -426,7 +426,18 @@ export default function Business_Notice() {
                   backgroundColor: "#002B3A",
                 }}
                 className="eye-left"
-              ></div>
+              ></div> */}
+
+                 <img
+                ref={leftEyeRef}
+                src="media/gif/eye.png"
+                style={{
+                  width: "30px",
+                  height: "auto",
+                  // borderRadius: "50%",
+                  // backgroundColor: "#002B3A",
+                }}
+              />
             </div>
 
             {/* Middle Bridge */}
@@ -485,7 +496,7 @@ export default function Business_Notice() {
               }}
               className="lens-right"
             >
-              <div
+              {/* <div
                 ref={rightEyeRef}
                 style={{
                   width: "30px",
@@ -494,7 +505,18 @@ export default function Business_Notice() {
                   backgroundColor: "#002B3A",
                 }}
                 className="eye-right"
-              ></div>
+              ></div> */}
+
+              <img
+                ref={rightEyeRef}
+                src="media/gif/eye.png"
+                style={{
+                  width: "30px",
+                           height: "auto",
+                  // borderRadius: "50%",
+                  // backgroundColor: "#002B3A",
+                }}
+              />
             </div>
           </div>
 
