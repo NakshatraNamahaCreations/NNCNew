@@ -1,6 +1,6 @@
 
-import ReactvsNextjsBlogClient from "./ReactvsNextjsBlogClient.jsx"
+import ImportanceofResponsiveDesign from "./ImportanceofResponsiveDesign.jsx"
 export default function BlogPage() {
-    return <ReactvsNextjsBlogClient />;
+    return <ImportanceofResponsiveDesign />;
   }
   

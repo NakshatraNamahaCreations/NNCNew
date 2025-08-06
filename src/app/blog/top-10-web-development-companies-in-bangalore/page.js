@@ -1,6 +1,6 @@
 
-import ReactvsNextjsBlogClient from "./ReactvsNextjsBlogClient.jsx"
+import Top10WebDevelopmentCompaniesinBangalore from "./Top10WebDevelopmentCompaniesinBangalore.jsx"
 export default function BlogPage() {
-    return <ReactvsNextjsBlogClient />;
+    return <Top10WebDevelopmentCompaniesinBangalore />;
   }
   

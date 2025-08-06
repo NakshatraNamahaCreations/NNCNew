@@ -9,6 +9,7 @@ import Icons from "@/components/Icons";
 import { HiH3 } from "react-icons/hi2";
 import Image from "next/image";  // Next.js Image component for optimization
 import Head from "next/head";  // Next.js's Head component for SEO
+import Script from "next/script";  // Next.js's Head component for SEO
 
 const faqData = [
     {
@@ -78,60 +79,9 @@ const WaysAnimationCanRevampYourBrandIdentity = () => {
 
     return (
         <div>
-            <Head>
-                <title>How Animation Strengthens Your Brand Identity</title>
-                <meta
-                    name="description"
-                    content="Discover how animation boosts brand recall, simplifies messaging, and differentiates your business. See 5 ways it can elevate your brand identity today."
-                />
-                <meta
-                    name="keywords"
-                    content="animation for business branding
-                    brand identity animation
-                    increase brand memorability
-                    animated explainer for business
-                    stand out with animation"
-                ></meta>
-                <link
-                    rel="canonical"
-                    href="https://nakshatranamahacreations.com/blog/animation-for-brand-identity"
-                />
-
-                {/* Open Graph (OG) Tags */}
-
-                <meta
-                    property="og:title"
-                    content="How Animation Strengthens Your Brand Identity"
-                />
-                <meta
-                    property="og:description"
-                    content="Wondering whether to choose 2D or 3D animation for your business? LeaDiscover how animation boosts brand recall, simplifies messaging, and differentiates your business. See 5 ways it can elevate your brand identity today."
-                />
-                <meta
-                    property="og:url"
-                    content="https://nakshatranamahacreations.com/blog/animation-for-brand-identity"
-                />
-                <meta property="og:type" content="website" />
-                <meta property="og:site_name" content="Nakshatra Namaha Creations" />
-
-                {/* Twitter Card Tags */}
-                <meta name="twitter:card" content="Summary" />
-                <meta
-                    name="twitter:title"
-                    content="How Animation Strengthens Your Brand Identity"
-                />
-                <meta
-                    name="twitter:description"
-                    content="Discover how animation boosts brand recall, simplifies messaging, and differentiates your business. See 5 ways it can elevate your brand identity today."
-                />
-                <meta
-                    name="twitter:image"
-                    content="https://nakshatranamahacreations.com/media/logo.png"
-                />
-                <meta name="twitter:site" content="@nncbengaluru" />
 
                 {/* <!-- Meta Pixel Code --> */}
-                <script>
+                <Script>
                     {`!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -142,7 +92,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '2226129677535551');
 fbq('track', 'PageView');`}
-                </script>
+                </Script>
                 <noscript>
                     {` <img
             height="1"
@@ -153,10 +103,10 @@ fbq('track', 'PageView');`}
                 </noscript>
                 {/* <!-- End Meta Pixel Code --> */}
 
-                <script type="application/ld+json">
+                <Script type="application/ld+json">
                     {JSON.stringify(schemaMarkup)}
-                </script>
-            </Head>
+                </Script>
+           
 
             <Breadcrumbs paths={breadcrumbPaths} />
             <div

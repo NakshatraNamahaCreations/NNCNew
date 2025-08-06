@@ -1711,9 +1711,14 @@ body {
     height: 60px !important;
     margin: 0px !important;
   }
+  .middle-bridge-box{
+    left: -12px !important;
+  }
 
   .middle-bridge {
-    width: 60px !important;
+    width: 80px !important;
+       height: 100px !important;
+       
   }
   .circle {
     display: none !important;

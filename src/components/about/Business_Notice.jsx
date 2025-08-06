@@ -325,8 +325,8 @@ export default function Business_Notice() {
   });
 
   return (
-    <div style={{  backgroundColor: "#004960",}}>
-      <div style={{width:"100%", maxWidth:"1400px", margin:"auto"}} >
+    <div style={{ backgroundColor: "#004960" }}>
+      <div style={{ width: "100%", maxWidth: "1400px", margin: "auto" }}>
         {/* First Section */}
         <animated.div
           ref={block1Ref}
@@ -393,11 +393,11 @@ export default function Business_Notice() {
             style={{
               position: "absolute",
               top: "-72px",
-              left: "75px", 
-              width: "300px", 
+              left: "75px",
+              width: "300px",
               height: "100px",
               display: "flex",
-              justifyContent: "space-between", 
+              justifyContent: "space-between",
               alignItems: "center",
             }}
             className="eyes"
@@ -405,14 +405,14 @@ export default function Business_Notice() {
             {/* Left Eye Lens */}
             <div
               style={{
-                width: "120px", 
+                width: "120px",
                 height: "120px",
-                borderRadius: "50%", 
-                backgroundColor: "#fff", 
+                borderRadius: "50%",
+                backgroundColor: "#fff",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                marginRight: "-10px", 
+                marginRight: "-10px",
                 zIndex: 2,
               }}
               className="lens-left"
@@ -420,17 +420,17 @@ export default function Business_Notice() {
               <div
                 ref={leftEyeRef}
                 style={{
-                  width: "30px", 
+                  width: "30px",
                   height: "30px",
                   borderRadius: "50%",
-                  backgroundColor: "#002B3A", 
+                  backgroundColor: "#002B3A",
                 }}
                 className="eye-left"
               ></div>
             </div>
 
             {/* Middle Bridge */}
-            <div
+            {/* <div
               style={{
                 position: "absolute",
                 top: "35px", 
@@ -443,19 +443,44 @@ export default function Business_Notice() {
                 zIndex: 1, // Ensure it's in front of the lenses
               }}
               className="middle-bridge"
-            ></div>
+            ></div> */}
+            {/* Middle Bridge */}
+            <div
+              style={{
+                position: "absolute",
+                top: "35px",
+                left: "50px",
+                width: "180px",
+                height: "20px", // match image height
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+              className="middle-bridge-box"
+            >
+              <img
+                src="/media/gif/curve.png"
+                alt="curve"
+                style={{
+                  width: "180px",
+                  height: "200px",
+                  transform: "rotate(-5deg)",
+                }}
+                className="middle-bridge"
+              />
+            </div>
 
             {/* Right Eye Lens */}
             <div
               style={{
-                width: "120px", 
+                width: "120px",
                 height: "120px",
-                borderRadius: "50%", 
-                backgroundColor: "#fff", 
+                borderRadius: "50%",
+                backgroundColor: "#fff",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                marginLeft: "50px", 
+                marginLeft: "50px",
                 zIndex: 2,
               }}
               className="lens-right"
@@ -463,7 +488,7 @@ export default function Business_Notice() {
               <div
                 ref={rightEyeRef}
                 style={{
-                  width: "30px", 
+                  width: "30px",
                   height: "30px",
                   borderRadius: "50%",
                   backgroundColor: "#002B3A",

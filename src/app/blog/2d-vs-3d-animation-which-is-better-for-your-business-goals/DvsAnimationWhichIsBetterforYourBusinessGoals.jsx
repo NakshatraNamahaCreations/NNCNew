@@ -10,6 +10,7 @@ import Icons from "@/components/Icons";
 
 import Image from 'next/image';
 import Head from 'next/head';
+import Script from 'next/script';
 
 const faqData = [
   {
@@ -118,8 +119,9 @@ const DvsAnimationWhichIsBetterforYourBusinessGoals = () => {
         />
         <meta name="twitter:site" content="@nncbengaluru" />
 
+      </Head>
         {/* <!-- Meta Pixel Code --> */}
-        <script>
+        <Script>
           {`!function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -130,7 +132,7 @@ const DvsAnimationWhichIsBetterforYourBusinessGoals = () => {
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '2226129677535551');
             fbq('track', 'PageView');`}
-        </script>
+        </Script>
         <noscript>
           {` <img
             height="1"
@@ -141,10 +143,9 @@ const DvsAnimationWhichIsBetterforYourBusinessGoals = () => {
         </noscript>
         {/* <!-- End Meta Pixel Code --> */}
 
-        <script type="application/ld+json">
+        <Script type="application/ld+json">
           {JSON.stringify(schemaMarkup)}
-        </script>
-      </Head>
+        </Script>
 
       <Breadcrumbs paths={breadcrumbPaths} />
       <div className="blogDetailContainer" style={{ paddingInline: "4%", marginTop: "30px" }}>

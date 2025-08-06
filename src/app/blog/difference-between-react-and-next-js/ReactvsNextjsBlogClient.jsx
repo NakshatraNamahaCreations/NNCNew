@@ -8,6 +8,7 @@ import Breadcrumbs from '@/components/BreadCrumbs';
 import { useRef } from 'react';
 import Head from 'next/head'; // Use Next.js Head for SEO
 import Link from 'next/link';
+import Script from 'next/script';
 const reactNextjs = '/media/blogs/react&Nextjs.webp';
 
 const faqData = [
@@ -70,27 +71,8 @@ const ReactvsNextjsBlogClient = () => {
 
   return (
     <div>
-      <Head>
-        <title>Difference between React and Next JS: Which One Should You Choose in 2025</title>
-        <meta name="description" content="Explore the key difference between React and Next JS in 2025, comparing performance, SEO, routing, and developer experience for your next web project." />
-        <meta name="keywords" content="Web Development Company in Bangalore, Web Design Company in Bangalore, Web Development" />
-        <link rel="canonical" href="https://nakshatranamahacreations.com/blog/difference-between-react-and-next-js" />
-
-        {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="Difference between React and Next JS: Which One Should You Choose in 2025" />
-        <meta property="og:description" content="Explore the key difference between React and Next JS in 2025, comparing performance, SEO, routing, and developer experience for your next web project." />
-        <meta property="og:url" content="https://nakshatranamahacreations.com/blog/difference-between-react-and-next-js" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Nakshatra Namaha Creations" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="Summary" />
-        <meta name="twitter:title" content="Difference between React and Next JS: Which One Should You Choose in 2025" />
-        <meta name="twitter:description" content="Explore the key difference between React and Next JS in 2025, comparing performance, SEO, routing, and developer experience for your next web project." />
-        <meta name="twitter:image" content="https://nakshatranamahacreations.com/media/nnclogo.png" />
-        <meta name="twitter:site" content="@nncbengaluru" />
-        <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
-      </Head>
+    
+        <Script type="application/ld+json">{JSON.stringify(schemaMarkup)}</Script>
 
       <Breadcrumbs paths={breadcrumbPaths} />
       <div className="blogDetailContainer" style={{ paddingInline: "4%", marginTop: "30px" }}>
