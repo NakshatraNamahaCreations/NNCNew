@@ -38,14 +38,15 @@ export default function CareerSearch() {
           width: "100%",
           ...imgSpring,
         }}
-        className="img-groups"
+        className="career-cover-wrapper"
       >
         <Image
-          src="/media/NNCWebsite_CareerPage_PNG_CareerCoverImage.png" // Path to image
+          src="/media/NNCWebsite_CareerPage_PNG_CareerCoverImage.png"
           alt="careers-icon"
-          layout="intrinsic" // Use intrinsic layout to auto-adjust the aspect ratio
-          width={320} // Set the desired width
-          height={200} // Set the desired height (will maintain the aspect ratio)
+          // layout="responsive"
+          width={300} // realistic for desktop
+          height={400}
+          priority
         />
       </animated.div>
 
@@ -53,8 +54,8 @@ export default function CareerSearch() {
       <Container>
         <FloatingLabel
           controlId="floatingSearch"
-          className="mb-3"
-          style={{ marginTop: "-1%" }}
+          className="search-bar mb-3"
+          style={{ marginTop: "-1%", width: "70%", margin: "auto" }}
         >
           <InputGroup as={animated.div} ref={refInput} style={inputSpring}>
             <Form.Control

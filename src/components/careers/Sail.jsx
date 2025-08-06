@@ -2,7 +2,7 @@
 
 import Image from "next/image"; // Import the next/image component for optimized image handling
 
-const ComeSailwithus = "/media/ComeSailwithus.png";
+const ComeSailwithus = "/media/gif/Ship.gif";
 
 export default function Sail() {
   return (

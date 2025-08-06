@@ -1,55 +1,29 @@
 
+"use client";
 
-import { Row, Col } from "react-bootstrap";
+import { useState } from "react";
+import { Row, Col, Container, Image, Button } from "react-bootstrap";
 import { useTrail, animated } from "@react-spring/web";
 import { useInView } from "react-intersection-observer";
-import { useRouter } from "next/navigation";
+import IconsButton from "./IconsButton";
 
-// Importing images from public directory
-const smile = "/media/NNCWebsite_V3_CustomersSmilling.png";
-const briefcase = "/media/NNCWebsite_V3_Work.png";
-const folder = "/media/NNCWebsite_V3_ProjectsDone.png";
-const person = "/media/NNCWebsite_V3_Footer1.png";
-const foot = "/media/NNCWebsite_V3_Footer2.png";
-import IconsModalButton from "./IconsModalButton";
+const smile = "/media/NNCWebsite_V3_CustomersSmilling.webp";
+const briefcase = "/media/NNCWebsite_V3_Work.webp";
+const folder = "/media/NNCWebsite_V3_ProjectsDone.webp";
+const person = "/media/gif/talk.gif";
 
 export default function IconsModal() {
+  const [showPopup, setShowPopup] = useState(false);
+
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.5,
   });
 
-  const router = useRouter(); // Use Next.js useRouter for routing
-
   const items = [
-    {
-      image: briefcase,
-      alt: "briefcase-icon",
-      heading: "8+",
-      text: "Years in Work",
-    },
-    {
-      image: folder,
-      alt: "folder-icon",
-      heading: "500+",
-      text: "Project done",
-    },
-    {
-      image: smile,
-      alt: "smile-icon",
-      heading: "500",
-      text: "Happy Clients",
-    },
-    {
-      image: null,
-      alt: "",
-      heading: (
-        <>
-          Got <br /> a <br /> Project?
-        </>
-      ),
-      text: "",
-    },
+    { image: briefcase, heading: "8+", text: "Years in Work" },
+    { image: folder, heading: "500+", text: "Project done" },
+    { image: smile, heading: "500", text: "Happy Clients" },
   ];
 
   const trail = useTrail(items.length, {
@@ -60,83 +34,52 @@ export default function IconsModal() {
   });
 
   return (
-    <animated.div ref={ref}>
-      <Row
-        style={{
-          maxWidth: "90%",
-          textAlign: "center",
-          color: "#000",
-          margin: "0% 5%",
-          paddingBottom: "12%",
-        }}
-        className="row-width-icons"
-      >
+    <Container ref={ref} className="text-center py-5">
+      {/* Top icons */}
+      <Row className="justify-content-center">
         {trail.map((animation, index) => (
-          <Col key={index}>
+          <Col xs={4} md={3} key={index} className="mb-4">
             <animated.div style={animation}>
-              {items[index].image && (
-                <img
-                  src={items[index].image}
-                  alt={items[index].alt}
-                  style={{ width: "70px", height: "70px" }} // Set fixed width and height
-                  className="image-icon"
-                />
-              )}
-              {items[index].heading && (
-                <p
-                  style={{
-                    fontWeight: "bold",
-                    marginTop: "10px",
-                    letterSpacing: "1px",
-                    fontSize: "50px",
-                    textAlign: "center",
-                  }}
-                  className="h1-icons"
-                >
-                  {items[index].heading}
-                </p>
-              )}
-              {items[index].text && (
-                <p
-                  style={{ fontWeight: "400", letterSpacing: "1px", fontSize: "14px" }}
-                  className="para-icons"
-                >
-                  {items[index].text}
-                </p>
-              )}
+              <Image
+                src={items[index].image}
+                alt={items[index].text}
+                width={70}
+                height={70}
+              />
+              <h2 className="fw-bold mt-2" style={{ fontSize: "40px" }}>
+                {items[index].heading}
+              </h2>
+              <p className="text-muted">{items[index].text}</p>
             </animated.div>
           </Col>
         ))}
-      </Row>
-      <Row style={{ marginTop: "-50px" }} className="div-row">
-        <Col sm={6}>
-          <img
-            src={person}
-            alt="person"
-            style={{ width: "150%", height: "auto" }} // Ensure height is auto for responsive design
-            className="person-voice"
-          />
+        <Col md={3}>
+          <h2
+            className="fw-bold"
+            style={{ fontWeight: 600, fontSize: "52px", lineHeight: "1.5" }}
+          >
+            Got <br /> a <br /> Project?
+          </h2>
         </Col>
-        <Col sm={6}>
-          <div style={{ textAlign: "center", marginTop: "15%" }} className="icons-button-top">
-            <IconsModalButton />
+      </Row>
 
-            {/* PNG Image Below the Button */}
-            <div style={{ marginBottom: "40px" }} className="img-feet">
-              <img
-                src={foot}
-                alt="arrow"
-                style={{
-                  width: "70px",
-                  height: "auto", // Maintain aspect ratio
-                  marginLeft: "40%",
-                }}
-                className="img-feet-left"
+      {/* Got a Project */}
+
+      {/* Footer Image */}
+      <Row className="mt-3 justify-content-center">
+            <Col xs={12}  className="text-center">
+              <Image
+                src={person}
+                alt="person"
+                fluid
+                className="cursor-pointer"
+                onClick={() => setShowPopup(true)}
               />
-            </div>
-          </div>
-        </Col>
-      </Row>
-    </animated.div>
+            </Col>
+          </Row>
+
+      {/* Modal */}
+      <IconsButton showPopup={showPopup} setShowPopup={setShowPopup} />
+    </Container>
   );
 }

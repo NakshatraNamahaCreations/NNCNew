@@ -22,10 +22,10 @@ const kruthika = "/media/NNCWebsite_AboutUsPage_Kruthika.webp";
 const jayapath = "/media/NNCWebsite_AboutUsPage_Jayanth.jpg";
 const guru = "/media/NNCWebsite_AboutUsPage_Guru.webp";
 const Dashavantha = "/media/NNCWebsite_AboutUsPage_Daswant.jpg";
-const Medini = "/media/NNCWebsite_AboutUsPage_Medini.jpg";
+// const Medini = "/media/NNCWebsite_AboutUsPage_Medini.jpg";
 const Dhanalakshmi = "/media/NNCWebsite_AboutUsPage_Dhanlakshmi.jpg";
 const Sonali = "/media/NNCWebsite_AboutUsPage_Sonali.jpg";
-const Anup = "/media/NNCWebsite_AboutUsPage_Anup.jpg";
+// const Anup = "/media/NNCWebsite_AboutUsPage_Anup.jpg";
 const Sathish = "/media/NNCWebsite_AboutUsPage_Sathish.jpg";
 
 export default function Teams() {
@@ -59,10 +59,10 @@ export default function Teams() {
     { image: jayapath, alt: "jayapath", name: "Jayanth P", title: "Associate Mobile App Developer" },
     { image: guru, alt: "guru", name: "GuruDarshan D Hegde", title: "SEO Analyst" },
     { image: Dashavantha, alt: "Dashavantha", name: "Dashavantha K.M.", title: "Motion Graphic Designer" },
-    { image: Medini, alt: "Medini", name: "Medini C.M.", title: "Accountant" },
+    // { image: Medini, alt: "Medini", name: "Medini C.M.", title: "Accountant" },
     { image: Dhanalakshmi, alt: "Dhanalakshmi", name: "Dhanalakshmi S B", title: "Frontend Developer" },
     { image: Sonali, alt: "Sonali", name: "Sonali Keshri", title: "Frontend Developer" },
-    { image: Anup, alt: "Anup", name: "Anup Chakra", title: "Full Stack Developer" },
+    // { image: Anup, alt: "Anup", name: "Anup Chakra", title: "Full Stack Developer" },
     { image: Sathish, alt: "Sathish", name: "Sathish", title: "QA Analyst" },
   ];
 

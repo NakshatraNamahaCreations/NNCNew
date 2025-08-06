@@ -156,8 +156,6 @@
 //   );
 // }
 
-
-
 "use client";
 
 import { useState } from "react";
@@ -181,95 +179,89 @@ export default function MobileNavbar() {
     setOpenAccordion(openAccordion === section ? null : section);
   };
 
-const services = [
-  {
-    name: "UI/UX Design",
-    link: "/graphic-design-company-in-bangalore",
-    items: [
-      "Wireframing and Prototyping",
-    ],
-  },
-  {
-    name: "Ecommerce Development",
-    link: "", // No direct page link provided
-    items: [
-      "WooCommerce Development",
-      "Ecommerce Web Development",
-    ],
-  },
-  {
-    name: "Web Development",
-    link: "/website-development-company-in-bangalore",
-    items: [
-      "Frontend Development",
-      "Full Stack Development",
-      "Static Website Development",
-      "Dynamic Website Development",
-      "PHP Web Development",
-      "Web Portal Development",
-      "WordPress Website Development",
-      "React JS Website Development",
-      "Node JS Website Development",
-      "CMS Website Development",
-    ],
-  },
-  {
-    name: "Software Development",
-    link: "", // No direct page link provided
-    items: [
-      "CRM Software Development",
-      "Enterprise Software Development",
-      "Software Product Development",
-      "Cloud Application Development",
-      "Software Support and Maintenance",
-      "Legacy Software Modernization",
-      "Software Consulting",
-    ],
-  },
-  {
-    name: "2D Animations",
-    link: "/2d-animation-studio-in-bangalore",
-    items: [
-      "Explainer Videos",
-      "Character Animation",
-      "Puppet Animation",
-      "Motion Graphics",
-    ],
-  },
-  {
-    name: "Mobile App Development",
-    link: "/mobile-app-development-company-in-bangalore",
-    items: [
-      "iOS Mobile App Development",
-      "Android Mobile App Development",
-      "Flutter Mobile App Development",
-      "React Native Mobile App Development",
-    ],
-  },
-  {
-    name: "Corporate Video Production",
-    link: "/corporate-video-production-company-in-bangalore",
-    items: [], // No sub-items provided in dropdown
-  },
-  {
-    name: "Solutions",
-    link: "/digital-marketing-agency-in-bangalore",
-    items: [
-      "Website Performance Optimization",
-      "Website Migration Service",
-      "Startup Solution",
-      "Search Engine Optimisation",
-      "Social Media Marketing",
-      "Paid Marketing",
-    ],
-  },
-  {
-    name: "B2B Marketing",
-    link: "/b2b-marketing-agency-in-bangalore",
-    items: [], // No sub-items provided
-  },
-];
-
+  const services = [
+    {
+      name: "UI/UX Design",
+      link: "/graphic-design-company-in-bangalore",
+      items: ["Wireframing and Prototyping"],
+    },
+    {
+      name: "Ecommerce Development",
+      link: "", // No direct page link provided
+      items: ["WooCommerce Development", "Ecommerce Web Development"],
+    },
+    {
+      name: "Web Development",
+      link: "/website-development-company-in-bangalore",
+      items: [
+        "Frontend Development",
+        "Full Stack Development",
+        "Static Website Development",
+        "Dynamic Website Development",
+        "PHP Web Development",
+        "Web Portal Development",
+        "WordPress Website Development",
+        "React JS Website Development",
+        "Node JS Website Development",
+        "CMS Website Development",
+      ],
+    },
+    {
+      name: "Software Development",
+      link: "", // No direct page link provided
+      items: [
+        "CRM Software Development",
+        "Enterprise Software Development",
+        "Software Product Development",
+        "Cloud Application Development",
+        "Software Support and Maintenance",
+        "Legacy Software Modernization",
+        "Software Consulting",
+      ],
+    },
+    {
+      name: "2D Animations",
+      link: "/2d-animation-studio-in-bangalore",
+      items: [
+        "Explainer Videos",
+        "Character Animation",
+        "Puppet Animation",
+        "Motion Graphics",
+      ],
+    },
+    {
+      name: "Mobile App Development",
+      link: "/mobile-app-development-company-in-bangalore",
+      items: [
+        "iOS Mobile App Development",
+        "Android Mobile App Development",
+        "Flutter Mobile App Development",
+        "React Native Mobile App Development",
+      ],
+    },
+    {
+      name: "Corporate Video Production",
+      link: "/corporate-video-production-company-in-bangalore",
+      items: [], // No sub-items provided in dropdown
+    },
+    {
+      name: "Solutions",
+      link: "/digital-marketing-agency-in-bangalore",
+      items: [
+        "Website Performance Optimization",
+        "Website Migration Service",
+        "Startup Solution",
+        "Search Engine Optimisation",
+        "Social Media Marketing",
+        "Paid Marketing",
+      ],
+    },
+    {
+      name: "B2B Marketing",
+      link: "/b2b-marketing-agency-in-bangalore",
+      items: [], // No sub-items provided
+    },
+  ];
 
   // Navigate to a specific page using the router
   const navigateTo = (path) => {
@@ -280,7 +272,10 @@ const services = [
   return (
     <Navbar className="d-lg-none mobile-navbar">
       <Container>
-        <Navbar.Brand onClick={() => navigateTo("/")} style={{ cursor: "pointer" }}>
+        <Navbar.Brand
+          onClick={() => navigateTo("/")}
+          style={{ cursor: "pointer" }}
+        >
           <img
             src="media/nnclogo.png"
             style={{ width: "60px", height: "auto" }}
@@ -296,7 +291,10 @@ const services = [
         )}
 
         {sidebarOpen && (
-          <div className="sidebar-menu" style={{ paddingBlock: "40px", height: "100%" }}>
+          <div
+            className="sidebar-menu"
+            style={{ paddingBlock: "40px", height: "100%" }}
+          >
             <button className="close-button" onClick={closeSidebar}>
               <X size={30} />
             </button>
@@ -305,13 +303,22 @@ const services = [
               <div className="menu-item" onClick={() => navigateTo("/")}>
                 Home
               </div>
-              <div className="menu-item" onClick={() => navigateTo("/about-us")}>
+              <div
+                className="menu-item"
+                onClick={() => navigateTo("/about-us")}
+              >
                 About Us
               </div>
-              <div className="menu-item" onClick={() => navigateTo("/our-works")}>
+              <div
+                className="menu-item"
+                onClick={() => navigateTo("/our-works")}
+              >
                 Our Works
               </div>
-              <div className="menu-item" onClick={() => navigateTo("/services")}>
+              <div
+                className="menu-item"
+                onClick={() => navigateTo("/services")}
+              >
                 Services
               </div>
 
@@ -320,23 +327,38 @@ const services = [
                   <div key={i}>
                     <div
                       className="menu-item sub-accordion-toggle"
-                      onClick={() => toggleAccordion(service.name)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+
+                        if (service.items.length > 0) {
+                          if (openAccordion === service.name) {
+                            // Second click redirects when dropdown is already open
+                            if (service.link) navigateTo(service.link);
+                          } else {
+                            // First click just toggles accordion
+                            setOpenAccordion(service.name);
+                          }
+                        } else {
+                          // No dropdown, navigate directly
+                          if (service.link) navigateTo(service.link);
+                        }
+                      }}
                     >
                       <span>{service.name}</span>
-                      <ChevronDown
-                        className={openAccordion === service.name ? "rotate" : ""}
-                        size={14}
-                      />
+                      {service.items.length > 0 && (
+                        <ChevronDown
+                          className={
+                            openAccordion === service.name ? "rotate" : ""
+                          }
+                          size={14}
+                        />
+                      )}
                     </div>
 
                     {openAccordion === service.name && (
                       <div className="sub-accordion-content">
                         {service.items.map((item, j) => (
-                          <div
-                            key={j}
-                            className="menu-item small"
-                            onClick={() => navigateTo(service.link)} // Navigate to the service link
-                          >
+                          <div key={j} className="menu-item small">
                             {item}
                           </div>
                         ))}
@@ -352,7 +374,10 @@ const services = [
               <div className="menu-item" onClick={() => navigateTo("/careers")}>
                 Careers
               </div>
-              <div className="menu-item" onClick={() => navigateTo("/contact-us")}>
+              <div
+                className="menu-item"
+                onClick={() => navigateTo("/contact-us")}
+              >
                 Contact Us
               </div>
             </div>

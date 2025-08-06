@@ -23,28 +23,51 @@ const ContactForm = () => {
   });
 
   useEffect(() => {
-    const path = router.pathname; // Use Next.js pathname
+    const currentPath = window.location.pathname; // safer for Next.js client-side
     let service = "";
-    if (path === "/website-development-company-in-bangalore" || "/website-development-company-in-hyderabad") {
+
+    if (
+      currentPath === "/website-development-company-in-bangalore" ||
+      currentPath === "/website-development-company-in-hyderabad"
+    ) {
       service = "Web Development";
-    } else if (path === "/mobile-app-development-company-in-bangalore" || "/mobile-app-development-company-hyderabad") {
+    } else if (
+      currentPath === "/mobile-app-development-company-in-bangalore" ||
+      currentPath === "/mobile-app-development-company-hyderabad"
+    ) {
       service = "App Development";
-    } else if (path === "/graphic-design-company-in-bangalore" || "/graphic-design-services-hyderabad")  {
+    } else if (
+      currentPath === "/graphic-design-company-in-bangalore" ||
+      currentPath === "/graphic-design-services-hyderabad"
+    ) {
       service = "Graphic Designing";
-    } else if (path === "/digital-marketing-agency-in-bangalore" || "/digital-marketing-agency-hyderabad") {
+    } else if (
+      currentPath === "/digital-marketing-agency-in-bangalore" ||
+      currentPath === "/digital-marketing-agency-hyderabad"
+    ) {
       service = "Digital Marketing";
-    } else if (path === "/corporate-video-production-company-in-bangalore" || "/corporate-video-production-company-hyderabad") {
+    } else if (
+      currentPath === "/corporate-video-production-company-in-bangalore" ||
+      currentPath === "/corporate-video-production-company-hyderabad"
+    ) {
       service = "Corporate Video Production";
-    } else if (path === "/b2b-marketing-agency-in-bangalore") {
+    } else if (
+      currentPath === "/b2b-marketing-agency-in-bangalore" ||
+      currentPath === "/b2b-marketing-company-hyderabad"
+    ) {
       service = "B2B Marketing Service";
-    } else if (path === "/2d-animation-studio-in-bangalore") {
+    } else if (
+      currentPath === "/2d-animation-studio-in-bangalore" ||
+      currentPath === "/2d-animation-studio-hyderabad"
+    ) {
       service = "2D Animations";
     }
+
     setFormData((prev) => ({
       ...prev,
       user_service: service,
     }));
-  }, [router.pathname]);
+  }, []);
 
   // Handle Input Change
   const handleChange = (e) => {
@@ -79,7 +102,8 @@ const ContactForm = () => {
     // Name validation
     const nameRegex = /^[A-Za-z\s]{3,}$/;
     if (!user_name || !nameRegex.test(user_name.trim())) {
-      errors.user_name = "Please enter a valid name (only letters, min 3 characters).";
+      errors.user_name =
+        "Please enter a valid name (only letters, min 3 characters).";
     }
 
     // Phone validation
@@ -124,14 +148,17 @@ const ContactForm = () => {
     }
 
     try {
-      const response = await axios.post("https://api.nakshatranamahacreations.in/api/enquiries", {
-        name: user_name,
-        email: user_email,
-        phoneNo: user_phone, // Renamed to match previous backend schema
-        service: user_service,
-        referenceFrom: "website",
-        city: "Bangalore",
-      });
+      const response = await axios.post(
+        "https://api.nakshatranamahacreations.in/api/enquiries",
+        {
+          name: user_name,
+          email: user_email,
+          phoneNo: user_phone, // Renamed to match previous backend schema
+          service: user_service,
+          referenceFrom: "website",
+          city: "Bangalore",
+        }
+      );
 
       if (response.status === 201 || response.status === 200) {
         router.push("/thankyou"); // Use Next.js router to navigate
@@ -237,10 +264,14 @@ const ContactForm = () => {
           required
           className="mb-3"
         >
-          <option value={formData.user_service}>{formData.user_service || "Select a Service"}</option>
+          <option value={formData.user_service}>
+            {formData.user_service || "Select a Service"}
+          </option>
           <option value="Web Development">Web Development</option>
           <option value="App Development">App Development</option>
-          <option value="Corporate Video Production">Corporate Video Production</option>
+          <option value="Corporate Video Production">
+            Corporate Video Production
+          </option>
           <option value="Digital Marketing">Digital Marketing</option>
           <option value="Graphic Designing">Graphic Designing</option>
           <option value="2D Animations">2D Animations</option>

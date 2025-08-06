@@ -254,7 +254,7 @@ body {
 }
 
 .img-groups img {
-  max-width: 100%;
+  max-width: 60% !important;
   /* Make sure image adjusts to container size */
   height: auto;
   /* Maintain aspect ratio */
@@ -262,7 +262,7 @@ body {
 
 .input-work {
   padding: 16px 20px;
-  width: 60%;
+  /* width: 50% !important; */
   margin: 0 auto;
 }
 
@@ -1010,7 +1010,9 @@ body {
     margin-top: 5% !important;
   }
 
-
+  .div-choosetop {
+    margin-top: 5% !important;
+  }
 
   .image-icon {
     width: 45px !important;
@@ -1529,19 +1531,6 @@ body {
     top: 90% !important;
   }
 
-  .content-div {
-    padding: 10px !important;
-    margin: 5% 27% !important;
-  }
-
-  .content-div1 {
-    margin: 15% -25% !important;
-    position: absolute !important;
-    top: 260px !important;
-    width: 45% !important;
-    left: 110px !important;
-  }
-
   .modal-header {
     padding: 15px !important;
     width: 95% !important;
@@ -1699,9 +1688,77 @@ body {
     /* Make sure the image is well-spaced */
   }
 
- 
+  .search-bar {
+    width: 100% !important;
+  }
+
+  .career-cover-wrapper img {
+    max-width: 100%;
+  }
+  .eyes {
+    top: -54px !important;
+    left: 20px !important;
+    width: 160px !important;
+  }
+   .lens-left .eye-left,
+  .lens-right .eye-right{
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .lens-left,
+  .lens-right {
+    width: 60px !important;
+    height: 60px !important;
+    margin: 0px !important;
+  }
+
+  .middle-bridge {
+    width: 60px !important;
+  }
+  .circle {
+    display: none !important;
+  }
+  .storkeLine {
+    display: none !important;
+  }
+  .first-two-para {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    position: relative;
+    top: -80px;
+  }
+  .last-two-para {
+    margin: 0 !important;
+    padding-left: 50% !important;
+    width: 100% !important;
+    position: relative;
+    top: -70px;
+  }
+  .we-help {
+    bottom: 100px !important;
+    left: 0 !important;
+    gap: 20px;
+  }
+
+  .brandStandout {
+    top: 0 !important;
+    left: 0 !important;
+  }
+  .torch-wrapper {
+    top: -10px !important;
+    left: 150px !important;
+  }
+  .torch-wrapper img {
+    width: 200px !important;
+    height: 200px !important;
+  }
 }
 
+.career-cover-wrapper img {
+  max-width: 80%;
+  height: auto;
+}
 
 /* LET'S TALK PAGE */
 
@@ -2328,13 +2385,6 @@ body {
     margin-left: 1% !important;
   }
 
-  .content-div {
-    position: absolute !important;
-    top: 5px !important;
-    width: 45% !important;
-    left: 110px !important;
-  }
-
   .p1-content {
     font-size: 10px !important;
   }
@@ -2371,13 +2421,6 @@ body {
   .p8-content {
     font-size: 10px !important;
     margin: 2% 5% 0% 5%;
-  }
-
-  .content-div1 {
-    position: absolute !important;
-    top: 200px !important;
-    width: 45% !important;
-    left: 110px !important;
   }
 
   .row-choose-margin {
@@ -2610,6 +2653,18 @@ body {
 
   .description-recrutiment {
     font-size: 10px !important;
+  }
+
+  .div-choose-background {
+    background-color: #ecf2fb;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: -5%;
   }
 
   .numberprocess-circle1 {

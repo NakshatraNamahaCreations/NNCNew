@@ -183,13 +183,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/media/nnclogo.png" type="image/png" />
-        <title>
-          Nakshatra Namaha Creations | Website Developers in Bangalore
-        </title>
-        <meta
-          name="description"
-          content="Nakshatra Namaha Creations is the best website developer in Bangalore."
-        />
+      
       </head>
       <body>
         {isLoading ? (

@@ -140,7 +140,7 @@ const Form_Validation_Admin = () => {
               Let us know what's on your mind
             </h2>
             <img
-              src="/media/NNCWebsite_Contact_V2_Whatsonyourmind.png"
+              src="/media/gif/Solution.gif"
               alt="communication-img"
               style={{
                 width: "70%",
@@ -152,7 +152,7 @@ const Form_Validation_Admin = () => {
           </Col>
           <Col md={6}>
             <img
-              src="/media/light.gif"
+              src="/media/gif/Light.gif"
               alt="bulb-img"
               style={{
                 width: "55%",
@@ -300,10 +300,10 @@ const Form_Validation_Admin = () => {
           </Col>
           <Col sm={7}>
             <img
-              src="/media/NNCWebsite_ContactV2_Needthis.png"
+              src="/media/gif/mic.gif"
               alt="contact"
               style={{
-                width: "50%",
+                width: "70%",
                 marginTop: "40px",
               }}
             />

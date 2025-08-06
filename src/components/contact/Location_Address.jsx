@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useEffect } from "react";
@@ -211,8 +210,8 @@ export default function LocationAddress() {
                   width: "90%",
                 }}
               >
-                1st floor, Darshan Plazza, Dwaraka Nagar, Banashankari, 6th Stage
-                1st Block, Channasandra, Bengaluru, Karnataka 560098
+                1st floor, Darshan Plazza, Dwaraka Nagar, Banashankari, 6th
+                Stage 1st Block, Channasandra, Bengaluru, Karnataka 560098
               </animated.p>
             </Col>
             <Col sm={6}>
@@ -248,7 +247,10 @@ export default function LocationAddress() {
                 loading="lazy"
               ></iframe>
             </Col>
-            <Col sm={6} className="position-location-address order-sm-2 order-1">
+            <Col
+              sm={6}
+              className="position-location-address order-sm-2 order-1"
+            >
               <animated.h4
                 style={{
                   lineHeight: 1.5,
@@ -270,9 +272,55 @@ export default function LocationAddress() {
                   width: "90%",
                 }}
               >
-                SUSWANI TOWERS, Akkamahadevi Rd, JP Nagar 2nd Stage, C-Block,
-                JP Nagar, Mysuru, Karnataka 570008
+                SUSWANI TOWERS, Akkamahadevi Rd, JP Nagar 2nd Stage, C-Block, JP
+                Nagar, Mysuru, Karnataka 570008
               </animated.p>
+            </Col>
+          </Row>
+        </div>
+
+        <div style={{ marginBlock: "10%" }} ref={ref}>
+          <Row className="div-location-maps">
+            <Col sm={6}>
+              <animated.h4
+                style={{
+                  lineHeight: 1.5,
+                  letterSpacing: "1px",
+                  fontSize: "28px",
+                  fontWeight: "900",
+                  ...headingAnimation1,
+                }}
+              >
+                Hyderabad
+              </animated.h4>
+              <animated.p
+                style={{
+                  fontSize: "20px",
+                  lineHeight: "1.7",
+                  letterSpacing: "1px",
+                  fontWeight: "500",
+                  padding: "20px 0",
+                  textAlign: "start",
+                  width: "90%",
+                }}
+              >
+                1st floor, Darshan Plazza, Dwaraka Nagar, Banashankari, 6th
+                Stage 1st Block, Channasandra, Bengaluru, Karnataka 560098
+              </animated.p>
+            </Col>
+            <Col sm={6}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18..."
+                width="100%"
+                height="300"
+                style={{
+                  border: "1px solid black",
+                  boxShadow: "3px 3px 0px black",
+                  borderRadius: "10px",
+                }}
+                allowFullScreen=""
+                loading="lazy"
+              ></iframe>
             </Col>
           </Row>
         </div>

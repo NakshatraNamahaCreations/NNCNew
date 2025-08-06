@@ -7,23 +7,36 @@ import Image from "next/image";
 
 export default function Content() {
   // Left Image Animation
-  const [refLeft, inViewLeft] = useInView({ triggerOnce: true, threshold: 0.2 });
+  const [refLeft, inViewLeft] = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
   const leftSpring = useSpring({
-    transform: inViewLeft ? "translateX(0px) scale(1)" : "translateX(-0px) scale(0.8)",
+    transform: inViewLeft
+      ? "translateX(0px) scale(1)"
+      : "translateX(-0px) scale(0.8)",
     opacity: inViewLeft ? 1 : 0,
     config: { tension: 100, friction: 12 },
   });
 
   // Right Image Animation
-  const [refRight, inViewRight] = useInView({ triggerOnce: true, threshold: 0.2 });
+  const [refRight, inViewRight] = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
   const rightSpring = useSpring({
-    transform: inViewRight ? "translateX(0px) scale(1)" : "translateX(100px) scale(0.8)",
+    transform: inViewRight
+      ? "translateX(0px) scale(1)"
+      : "translateX(100px) scale(0.8)",
     opacity: inViewRight ? 1 : 0,
     config: { tension: 100, friction: 12 },
   });
 
   // Text Animation
-  const [refText, inViewText] = useInView({ triggerOnce: true, threshold: 0.3 });
+  const [refText, inViewText] = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
   const textSpring = useSpring({
     transform: inViewText ? "scale(1)" : "scale(0.5)",
     opacity: inViewText ? 1 : 0,
@@ -42,14 +55,19 @@ export default function Content() {
         }}
       >
         {/* Left Image Animation */}
-        <animated.div ref={refLeft} style={{ flex: "1", maxWidth: "15%", ...leftSpring }}>
+        <animated.div
+          ref={refLeft}
+          style={{  maxWidth: "20%", ...leftSpring }}
+          // className="content-div"
+        >
           <Image
-            src="/media/NNCWebsite_Works_PNG_Character1.png"
+            src="/media/gif/Character1.gif"
             alt="left-cartoon"
-            width={150}
-            height={150}
-            className="img-leftcartoon"
-            style={{ width: "100%", height: "auto" }}
+            width={300}
+            height={300}
+            layout="responsive"
+            // className="img-leftcartoon"
+            // style={{ width: "100%", height: "auto" }}
           />
         </animated.div>
 
@@ -75,14 +93,19 @@ export default function Content() {
         </animated.h3>
 
         {/* Right Image Animation */}
-        <animated.div ref={refRight} style={{ flex: "1", maxWidth: "15%", ...rightSpring }}>
+        <animated.div
+          ref={refRight}
+          style={{  maxWidth: "20%",  }}
+          className="content-div"
+        >
           <Image
-            src="/media/NNCWebsite_Works_PNG_Character2.png"
+            src="/media/gif/Charecter2.gif"
             alt="right-cartoon"
-            width={150}
-            height={150}
-            className="img-rightcartoon"
-            style={{ width: "100%", height: "auto" }}
+            width={200}
+            height={200}
+            layout="responsive"
+            // className="img-rightcartoon"
+            // style={{ width: "100%", height: "auto" }}
           />
         </animated.div>
       </Container>

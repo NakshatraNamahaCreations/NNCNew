@@ -132,8 +132,6 @@ export default function AboutPage() {
 
   return (
     <div>
-
-
       {/* Meta Pixel Code */}
       <Script>
         {`!function(f,b,e,v,n,t,s)
