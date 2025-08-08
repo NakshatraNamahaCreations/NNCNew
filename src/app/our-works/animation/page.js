@@ -8,7 +8,7 @@ export const metadata = {
     "Corporate Video, Branding Video, Product Photoshoot, Podcasts Production, TV Ads, Digital Ads, Social Media Videos",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/our-works/animation",
+      "https://www.nakshatranamahacreations.com/our-works/animation",
   },
 };
 

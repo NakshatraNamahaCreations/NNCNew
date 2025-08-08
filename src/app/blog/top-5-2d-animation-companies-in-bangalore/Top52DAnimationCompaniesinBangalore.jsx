@@ -8,7 +8,8 @@ import Breadcrumbs from "@/components/BreadCrumbs";
 import Icons from "@/components/Icons";
 import { HiH3 } from "react-icons/hi2";
 import Image from "next/image";  
-import Head from "next/head";  
+import Head from "next/head"; 
+import Script from "next/script"; 
 
 const faqData = [
   {
@@ -95,7 +96,7 @@ const Top52DAnimationCompaniesinBangalore = () => {
       name: "Nakshatra Namaha Creations",
       logo: {
         "@type": "ImageObject",
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
       },
     },
     datePublished: "2025-15-05",
@@ -103,7 +104,7 @@ const Top52DAnimationCompaniesinBangalore = () => {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://nakshatranamahacreations.com/blog/top-5-2d-animation-companies-in-bangalore",
+        "https://www.nakshatranamahacreations.com/blog/top-5-2d-animation-companies-in-bangalore",
     },
   };
 
@@ -266,7 +267,7 @@ fbq('track', 'PageView');`}
                     2) Versatility in Projects
                   </h5>
                   <p>
-                    Their portfolio includes a variety of <a href="https://nakshatranamahacreations.com/our-works/animation"> 2D animation projects</a>, ranging from explainer videos and corporate films to educational content and promotional materials.
+                    Their portfolio includes a variety of <a href="https://www.nakshatranamahacreations.com/our-works/animation"> 2D animation projects</a>, ranging from explainer videos and corporate films to educational content and promotional materials.
                   </p>
                   <h5 style={{ fontSize: "16px", fontWeight: "600" }}>
                     3) Strong Experience
@@ -313,7 +314,7 @@ fbq('track', 'PageView');`}
                 <p style={{ textAlign: "justify" }}>
                   Bangalore’s 2D animation companies have carved a niche in the creative industry by delivering exceptional work that bridges art and communication. Each company featured in this blog brings unique strengths, be it in storytelling, technical execution, or meeting diverse client needs. Their commitment to quality and the ability to adapt to various sectors make them reliable partners for businesses seeking visually appealing and effective animation solutions.<br /><br />
 
-                  Whether you are a business looking to enhance your branding, an educator aiming to make learning more interactive, or a storyteller with a vision to share, the companies listed above can help bring your ideas to life. With their expertise and dedication, these companies ensure that Bangalore continues to shine as a hub for <a href="https://nakshatranamahacreations.com/contact-us">2D animation</a>.
+                  Whether you are a business looking to enhance your branding, an educator aiming to make learning more interactive, or a storyteller with a vision to share, the companies listed above can help bring your ideas to life. With their expertise and dedication, these companies ensure that Bangalore continues to shine as a hub for <a href="https://www.nakshatranamahacreations.com/contact-us">2D animation</a>.
 
                 </p>
               </div>

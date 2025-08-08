@@ -8,18 +8,18 @@ export const metadata = {
     "Graphic Design Services Hyderabad, Creative Designers Hyderabad, Visual Branding Agency, UI Design Hyderabad, Print and Marketing Creatives, Business Presentation Design",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/graphic-design-services-hyderabad",
+      "https://www.nakshatranamahacreations.com/graphic-design-services-hyderabad",
   },
   openGraph: {
     type: "website",
-    url: "https://nakshatranamahacreations.com/graphic-design-services-hyderabad",
+    url: "https://www.nakshatranamahacreations.com/graphic-design-services-hyderabad",
     title: "Graphic Design Services in Hyderabad",
     description:
       "Top graphic design agency in Hyderabad delivering logos, UI designs, brand visuals, marketing creatives, and presentations that boost engagement and identity.",
     siteName: "Nakshatra Namaha Creations",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/nnclogo.png",
+        url: "https://www.nakshatranamahacreations.com/media/nnclogo.png",
         alt: "Graphic Design Services in Hyderabad",
       },
     ],
@@ -31,7 +31,7 @@ export const metadata = {
     description:
       "Top graphic design agency in Hyderabad delivering logos, UI designs, brand visuals, marketing creatives, and presentations that boost engagement and identity.",
     images: [
-      "https://nakshatranamahacreations.com/media/logo.png",
+      "https://www.nakshatranamahacreations.com/media/logo.png",
     ],
   },
 };

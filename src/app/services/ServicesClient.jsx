@@ -28,18 +28,18 @@ export default function Service_Page() {
         "@graph": [
             {
                 "@type": "Organization",
-                "@id": "https://nakshatranamahacreations.com/#organization",
+                "@id": "https://www.nakshatranamahacreations.com/#organization",
                 name: "Nakshatra Namaha Creations",
-                url: "https://nakshatranamahacreations.com",
-                logo: "https://nakshatranamahacreations.com/media/logo.png",
+                url: "https://www.nakshatranamahacreations.com",
+                logo: "https://www.nakshatranamahacreations.com/media/logo.png",
                 sameAs: [],
             },
             {
                 "@type": "LocalBusiness",
-                "@id": "https://nakshatranamahacreations.com/#localbusiness",
+                "@id": "https://www.nakshatranamahacreations.com/#localbusiness",
                 name: "Nakshatra Namaha Creations",
-                image: "https://nakshatranamahacreations.com/media/logo.png",
-                url: "https://nakshatranamahacreations.com",
+                image: "https://www.nakshatranamahacreations.com/media/logo.png",
+                url: "https://www.nakshatranamahacreations.com",
                 address: {
                     "@type": "PostalAddress",
                     streetAddress:
@@ -65,13 +65,13 @@ export default function Service_Page() {
                         "@type": "ListItem",
                         position: 1,
                         name: "Home",
-                        item: "https://nakshatranamahacreations.com",
+                        item: "https://www.nakshatranamahacreations.com",
                     },
                     {
                         "@type": "ListItem",
                         position: 2,
                         name: "Services",
-                        item: "https://nakshatranamahacreations.com/services",
+                        item: "https://www.nakshatranamahacreations.com/services",
                     },
                 ],
             },
@@ -79,49 +79,49 @@ export default function Service_Page() {
                 "@type": "Service",
                 name: "Website Development",
                 provider: {
-                    "@id": "https://nakshatranamahacreations.com/#organization",
+                    "@id": "https://www.nakshatranamahacreations.com/#organization",
                 },
             },
             {
                 "@type": "Service",
                 name: "Mobile App Development",
                 provider: {
-                    "@id": "https://nakshatranamahacreations.com/#organization",
+                    "@id": "https://www.nakshatranamahacreations.com/#organization",
                 },
             },
             {
                 "@type": "Service",
                 name: "Corporate Video Production",
                 provider: {
-                    "@id": "https://nakshatranamahacreations.com/#organization",
+                    "@id": "https://www.nakshatranamahacreations.com/#organization",
                 },
             },
             {
                 "@type": "Service",
                 name: "Digital Marketing",
                 provider: {
-                    "@id": "https://nakshatranamahacreations.com/#organization",
+                    "@id": "https://www.nakshatranamahacreations.com/#organization",
                 },
             },
             {
                 "@type": "Service",
                 name: "2D Animation",
                 provider: {
-                    "@id": "https://nakshatranamahacreations.com/#organization",
+                    "@id": "https://www.nakshatranamahacreations.com/#organization",
                 },
             },
             {
                 "@type": "Service",
                 name: "Graphic Design",
                 provider: {
-                    "@id": "https://nakshatranamahacreations.com/#organization",
+                    "@id": "https://www.nakshatranamahacreations.com/#organization",
                 },
             },
             {
                 "@type": "Service",
                 name: "B2B Marketing Services",
                 provider: {
-                    "@id": "https://nakshatranamahacreations.com/#organization",
+                    "@id": "https://www.nakshatranamahacreations.com/#organization",
                 },
             },
         ],

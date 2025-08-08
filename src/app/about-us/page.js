@@ -11,17 +11,17 @@ export const metadata = {
   keywords:
     "Web Development Company in Bangalore, Web Development Company Near Me, Web Design Company in Bangalore, Web Design Company Near Me",
   alternates: {
-    canonical: "https://nakshatranamahacreations.com/about-us",
+    canonical: "https://www.nakshatranamahacreations.com/about-us",
   },
   openGraph: {
     title: "Web Development Company in Bangalore | About Us - NNC",
     description:
       "Discover NNC, a leading web development company in Bangalore delivering innovative, reliable and custom website development to grow your business online.",
-    url: "https://nakshatranamahacreations.com/about-us",
+    url: "https://www.nakshatranamahacreations.com/about-us",
     siteName: "Nakshatra Namaha Creations",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/NNCWebsite_About%20Us%20Page-03.webp",
+        url: "https://www.nakshatranamahacreations.com/media/NNCWebsite_About%20Us%20Page-03.webp",
         width: 1200,
         height: 630,
         alt: "About NNC",
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@nnc_creations",
     creator: "@nnc_creations",
     images: [
-      "https://nakshatranamahacreations.com/media/NNCWebsite_About%20Us%20Page-03.webp",
+      "https://www.nakshatranamahacreations.com/media/NNCWebsite_About%20Us%20Page-03.webp",
     ],
   },
 

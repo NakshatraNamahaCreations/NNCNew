@@ -133,7 +133,7 @@ const Top5Benefitsof2DAnimationforBusinesses = () => {
       name: "Nakshatra Namaha Creations",
       logo: {
         "@type": "ImageObject",
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
       },
     },
     datePublished: "2025-15-05",
@@ -246,7 +246,7 @@ fbq('track', 'PageView');`}
                   Enhances Brand Identity
                 </h3>
                 <p style={{ textAlign: "justify" }}>
-                  <a href="https://nakshatranamahacreations.com/2d-animation-studio-in-bangalore">
+                  <a href="https://www.nakshatranamahacreations.com/2d-animation-studio-in-bangalore">
                     2D animation{" "}
                   </a>{" "}
                   enables you to create absolutely original visuals and
@@ -305,7 +305,7 @@ fbq('track', 'PageView');`}
                   target audience. Thus, whether it is product explanation,
                   brand story or education content, 2D animation comes alive
                   making the{" "}
-                  <a href="https://nakshatranamahacreations.com/our-works/animation">
+                  <a href="https://www.nakshatranamahacreations.com/our-works/animation">
                     {" "}
                     information{" "}
                   </a>

@@ -8,18 +8,18 @@ export const metadata = {
     "corporate video production company in hyderabad, corporate video shoot hyderabad, corporate film makers in hyderabad, corporate video makers in hyderabad, video production services hyderabad, business video production hyderabad, professional video production company, branded content production hyderabad, commercial video production",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/corporate-video-production-company-hyderabad",
+      "https://www.nakshatranamahacreations.com/corporate-video-production-company-hyderabad",
   },
   openGraph: {
     type: "website",
-    url: "https://nakshatranamahacreations.com/corporate-video-production-company-hyderabad",
+    url: "https://www.nakshatranamahacreations.com/corporate-video-production-company-hyderabad",
     title: "Corporate Video Production Company in Hyderabad",
     description:
       "Professional corporate video production company in Hyderabad. We create brand videos, ads, interviews, and more—from concept to final delivery.",
     siteName: "Nakshatra Namaha Creations",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
         alt: "Corporate Video Production Company in Hyderabad",
       },
     ],
@@ -31,7 +31,7 @@ export const metadata = {
     description:
       "Professional corporate video production company in Hyderabad. We create brand videos, ads, interviews, and more—from concept to final delivery.",
     images: [
-      "https://nakshatranamahacreations.com/media/logo.png",
+      "https://www.nakshatranamahacreations.com/media/logo.png",
     ],
   },
 };

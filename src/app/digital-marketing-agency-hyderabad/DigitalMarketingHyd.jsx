@@ -233,7 +233,7 @@ export default function DigitalMarketingHyd() {
                                     "@type": "LocalBusiness",
                                     "@id": "https://www.nakshatranamahacreations.com/#localbusiness",
                                     name: "Nakshatra Namaha Creations",
-                                    image: "https://nakshatranamahacreations.com/media/nnclogo.png",
+                                    image: "https://www.nakshatranamahacreations.com/media/nnclogo.png",
                                     address: {
                                         "@type": "PostalAddress",
                                         streetAddress:
@@ -262,8 +262,8 @@ export default function DigitalMarketingHyd() {
                                     "@type": "Organization",
                                     "@id": "https://www.nakshatranamahacreations.com/#organization",
                                     name: "Nakshatra Namaha Creations",
-                                    url: "https://nakshatranamahacreations.com/digital-marketing-agency-hyderabad",
-                                    logo: "https://nakshatranamahacreations.com/media/nnclogo.png",
+                                    url: "https://www.nakshatranamahacreations.com/digital-marketing-agency-hyderabad",
+                                    logo: "https://www.nakshatranamahacreations.com/media/nnclogo.png",
                                 },
                                 {
                                     "@type": "BreadcrumbList",
@@ -278,7 +278,7 @@ export default function DigitalMarketingHyd() {
                                             "@type": "ListItem",
                                             position: 2,
                                             name: "Best Digital Marketing Agency in Hyderabad |SEO & Ad Experts",
-                                            item: "https://nakshatranamahacreations.com/digital-marketing-agency-hyderabad",
+                                            item: "https://www.nakshatranamahacreations.com/digital-marketing-agency-hyderabad",
                                         },
                                     ],
                                 },

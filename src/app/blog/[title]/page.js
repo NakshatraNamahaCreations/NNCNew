@@ -15,7 +15,7 @@ export async function generateMetadata({ params }) {
     const response = await axios.get(`${API_BASE_URL}/blogs/blog/title/${title}`);
     const blog = response.data.data;
 
-    const blogUrl = `https://nakshatranamahacreations.com/blog/${toUrlFriendly(blog.title)}`;
+    const blogUrl = `https://www.nakshatranamahacreations.com/blog/${toUrlFriendly(blog.title)}`;
     const bannerImage = blog.bannerImage.startsWith("http")
       ? blog.bannerImage
       : `${API_BASE_URL}/uploads/${blog.bannerImage}`;
@@ -29,14 +29,14 @@ export async function generateMetadata({ params }) {
       author: {
         "@type": "Person",
         name: "Nakshatra Namaha Creations",
-        url: "https://nakshatranamahacreations.com/",
+        url: "https://www.nakshatranamahacreations.com/",
       },
       publisher: {
         "@type": "Organization",
         name: "Nakshatra Namaha Creations",
         logo: {
           "@type": "ImageObject",
-          url: "https://nakshatranamahacreations.com/media/logo.png",
+          url: "https://www.nakshatranamahacreations.com/media/logo.png",
         },
       },
       datePublished: blog.createdAt,

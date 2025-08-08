@@ -270,10 +270,10 @@ const BlogClient = () => {
         setLoading(true);
         try {
             const response = await axios.get(`${API_BASE_URL}/blogs`, {
-                params: {
-                    page: currentPage,
-                    limit: 9,
-                },
+                // params: {
+                //     page: currentPage,
+                //     limit: 9,
+                // },
             });
 
             const apiBlogs = response.data.data.map((blog) => ({

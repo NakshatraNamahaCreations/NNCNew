@@ -6,9 +6,7 @@ import BlogFAQ from "@/components/blogs/BlogFAQ";
 import BlogContactForm from "@/components/blogs/BlogContactForm";
 import Breadcrumbs from "@/components/BreadCrumbs";
 import Icons from "@/components/Icons";
-import { HiH3 } from "react-icons/hi2";
-import Image from "next/image";  
-import Head from "next/head"; 
+ 
 import Script from "next/script"; 
 
 const faqData = [
@@ -62,7 +60,7 @@ const Whybusinessesarechoosing2danimationforMarketing = () => {
             name: "Nakshatra Namaha Creations",
             logo: {
                 "@type": "ImageObject",
-                url: "https://nakshatranamahacreations.com/media/logo.png",
+                url: "https://www.nakshatranamahacreations.com/media/logo.png",
             },
         },
         datePublished: "2025-15-05",
@@ -70,7 +68,7 @@ const Whybusinessesarechoosing2danimationforMarketing = () => {
         mainEntityOfPage: {
             "@type": "WebPage",
             "@id":
-                "https://nakshatranamahacreations.com/blog/why-businesses-are-choosing-2d-animation-for-marketing",
+                "https://www.nakshatranamahacreations.com/blog/why-businesses-are-choosing-2d-animation-for-marketing",
         },
     };
 
@@ -290,7 +288,7 @@ fbq('track', 'PageView');`}
                                         Quick Production
                                     </h4>
                                     <p>
-                                       Compared to <a href="https://nakshatranamahacreations.com/our-works/animation"> live-action videos</a> or 3D animation, 2D animation can be produced in a shorter time frame. The streamlined process allows businesses to create content quickly, making it perfect for meeting tight deadlines or launching campaigns within a limited period.
+                                       Compared to <a href="https://www.nakshatranamahacreations.com/our-works/animation"> live-action videos</a> or 3D animation, 2D animation can be produced in a shorter time frame. The streamlined process allows businesses to create content quickly, making it perfect for meeting tight deadlines or launching campaigns within a limited period.
                                     </p>
                                     <h4 style={{ fontSize: "16px", fontWeight: "600" }}>
                                          Simplifies Communication
@@ -332,7 +330,7 @@ fbq('track', 'PageView');`}
                                        Requires Skilled Artists
                                     </h4>
                                     <p>
-                                       Creating high-quality <a href="https://nakshatranamahacreations.com/contact-us">2D animation </a>depends heavily on skilled animators who can deliver smooth transitions and engaging visuals. Finding the right talent or team can be a challenge for businesses, especially those unfamiliar with animation production.
+                                       Creating high-quality <a href="https://www.nakshatranamahacreations.com/contact-us">2D animation </a>depends heavily on skilled animators who can deliver smooth transitions and engaging visuals. Finding the right talent or team can be a challenge for businesses, especially those unfamiliar with animation production.
                                     </p>
                                      <h4 style={{ fontSize: "16px", fontWeight: "600" }}>
                                       Not Suitable for All Products
@@ -360,7 +358,7 @@ fbq('track', 'PageView');`}
                                     Conclusion
                                 </h2>
                                 <p style={{ textAlign: "justify" }}>
-                                    2D animation brings a unique blend of creativity and functionality to business marketing. It is one of the key reasons why businesses are choosing <a href="https://nakshatranamahacreations.com/2d-animation-studio-in-bangalore">2D animation for marketing</a>, as it excels in simplifying ideas and building brand identity. However, it has its limitations in realism and interactivity. Understanding its pros and cons helps businesses decide if 2D animation aligns with their goals, ensuring they leverage its full potential to connect with their audience.
+                                    2D animation brings a unique blend of creativity and functionality to business marketing. It is one of the key reasons why businesses are choosing <a href="https://www.nakshatranamahacreations.com/2d-animation-studio-in-bangalore">2D animation for marketing</a>, as it excels in simplifying ideas and building brand identity. However, it has its limitations in realism and interactivity. Understanding its pros and cons helps businesses decide if 2D animation aligns with their goals, ensuring they leverage its full potential to connect with their audience.
                                 </p>
                             </div>
                         </div>

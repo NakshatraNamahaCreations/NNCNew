@@ -129,14 +129,14 @@ const Top10MobileappdevCompaniesBlog = () => {
     author: {
       "@type": "Person",
       name: "Nakshatra Namaha Creations",
-      url: "https://nakshatranamahacreations.com/",
+      url: "https://www.nakshatranamahacreations.com/",
     },
     publisher: {
       "@type": "Organization",
       name: "Nakshatra Namaha Creations",
       logo: {
         "@type": "ImageObject",
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
       },
     },
     datePublished: "2025-05-30",
@@ -144,7 +144,7 @@ const Top10MobileappdevCompaniesBlog = () => {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://nakshatranamahacreations.com/blog/top-10-mobile-app-development-companies-in-bangalore",
+        "https://www.nakshatranamahacreations.com/blog/top-10-mobile-app-development-companies-in-bangalore",
     },
   };
 
@@ -200,7 +200,7 @@ fbq('track', 'PageView');`}
           {/* Left-side content */}
           <Col sm={9}>
             <div className="position-relative">
-              <img src={Top10MobileappCompanies} width="100%" />
+              <img src="/media/blogs/Top10MobileappCompanies.png" width="100%" />
               <h1
                 className="blogHeading1 bg-white shadow mx-4 text-center position-absolute p-2"
                 style={{ bottom: "-40px", fontSize: "30px" }}

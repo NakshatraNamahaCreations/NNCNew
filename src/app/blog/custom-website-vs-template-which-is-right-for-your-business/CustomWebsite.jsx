@@ -53,14 +53,14 @@ const CustomWebsite = () => {
         author: {
             "@type": "Person",
             name: "Nakshatra Namaha Creations",
-            url: "https://nakshatranamahacreations.com/blog/custom-website-vs-template-which-is-right-for-your-business/",
+            url: "https://www.nakshatranamahacreations.com/blog/custom-website-vs-template-which-is-right-for-your-business/",
         },
         publisher: {
             "@type": "Organization",
             name: "Nakshatra Namaha Creations",
             logo: {
                 "@type": "ImageObject",
-                url: "https://nakshatranamahacreations.com/media/logo.png",
+                url: "https://www.nakshatranamahacreations.com/media/logo.png",
             },
         },
         datePublished: "2025-15-05",
@@ -68,7 +68,7 @@ const CustomWebsite = () => {
         mainEntityOfPage: {
             "@type": "WebPage",
             "@id":
-                "https://nakshatranamahacreations.com/blog/custom-website-vs-template-which-is-right-for-your-business/",
+                "https://www.nakshatranamahacreations.com/blog/custom-website-vs-template-which-is-right-for-your-business/",
         },
     };
 
@@ -132,7 +132,7 @@ fbq('track', 'PageView');`}
                         </div>
                         <div className="mt-5 ms-lg-4 mx-3">
                             <p style={{ textAlign: "justify" }}>
-                                In today’s digital age, having a strong online presence is essential for any business. Whether you’re a small startup or an established company, your website often serves as the first point of contact for customers. When it comes to building your website, you face a major decision: Should you go for a<a href="https://nakshatranamahacreations.com/">custom-built website </a> or use a ready-made template? Both options have their pros and cons, and the right choice depends on your business needs, budget, and goals. In this blog, we'll explore the differences between custom websites and template websites to help you make an informed decision.
+                                In today’s digital age, having a strong online presence is essential for any business. Whether you’re a small startup or an established company, your website often serves as the first point of contact for customers. When it comes to building your website, you face a major decision: Should you go for a<a href="https://www.nakshatranamahacreations.com/">custom-built website </a> or use a ready-made template? Both options have their pros and cons, and the right choice depends on your business needs, budget, and goals. In this blog, we'll explore the differences between custom websites and template websites to help you make an informed decision.
                             </p> <br />
                             <div>
                                 <h4>Table of Contents</h4>

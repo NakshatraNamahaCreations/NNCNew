@@ -299,7 +299,7 @@ export default function WebsiteDevelopmentBangalorePage() {
           "@type": "LocalBusiness",
           "@id": "https://www.nakshatranamahacreations.com/#localbusiness",
           name: "Nakshatra Namaha Creations",
-          image: "https://nakshatranamahacreations.com/media/nnclogo.png",
+          image: "https://www.nakshatranamahacreations.com/media/nnclogo.png",
           address: {
             "@type": "PostalAddress",
             streetAddress:
@@ -332,8 +332,8 @@ export default function WebsiteDevelopmentBangalorePage() {
           "@type": "Organization",
           "@id": "https://www.nakshatranamahacreations.com/#organization",
           name: "Nakshatra Namaha Creations",
-          url: "https://nakshatranamahacreations.com/web-design-company-in-jayanagar",
-          logo: "https://nakshatranamahacreations.com/media/nnclogo.png",
+          url: "https://www.nakshatranamahacreations.com/web-design-company-in-jayanagar",
+          logo: "https://www.nakshatranamahacreations.com/media/nnclogo.png",
         })}
       </Script>
 

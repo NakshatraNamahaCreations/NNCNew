@@ -9,17 +9,17 @@ export const metadata = {
   keywords:
     "Website Developers in Bangalore, Mobile App Developers in Bangalore, Digital Marketing Agency in Bangalore, 2D Animation Service in Bangalore, Graphic Designers in Bangalore, Corporate Video Production in Bangalore",
   alternates: {
-    canonical: "https://nakshatranamahacreations.com/",
+    canonical: "https://www.nakshatranamahacreations.com/",
   },
   openGraph: {
     title: "Website Developers in Bangalore | Custom Web Development",
     description:
       "Expert website developers in Bangalore creating user-friendly, SEO-friendly and high-performance custom websites to grow your business online effectively.",
-    url: "https://nakshatranamahacreations.com/",
+    url: "https://www.nakshatranamahacreations.com/",
     siteName: "Nakshatra Namaha Creations",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/NNCWebsite_V3_BuildWebsites-removebg-preview.webp",
+        url: "https://www.nakshatranamahacreations.com/media/NNCWebsite_V3_BuildWebsites-removebg-preview.webp",
         width: 800,
         height: 600,
         alt: "Nakshatra Namaha Creations",
@@ -35,7 +35,7 @@ export const metadata = {
     description:
       "Expert website developers in Bangalore creating user-friendly, SEO-friendly and high-performance custom websites to grow your business online effectively.",
     images: [
-      "https://nakshatranamahacreations.com/media/NNCWebsite_V3_BuildWebsites-removebg-preview.webp",
+      "https://www.nakshatranamahacreations.com/media/NNCWebsite_V3_BuildWebsites-removebg-preview.webp",
     ],
   },
 };

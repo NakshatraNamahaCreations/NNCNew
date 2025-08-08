@@ -58,7 +58,7 @@ const Top10WebDevelopmentCompaniesinBangalore = () => {
       name: "Nakshatra Namaha Creations",
       logo: {
         "@type": "ImageObject",
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
       },
     },
     datePublished: "2025-15-05",
@@ -66,7 +66,7 @@ const Top10WebDevelopmentCompaniesinBangalore = () => {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://nakshatranamahacreations.com/blog/top-10-web-development-companies-in-bangalore",
+        "https://www.nakshatranamahacreations.com/blog/top-10-web-development-companies-in-bangalore",
     },
   };
 
@@ -84,7 +84,7 @@ const Top10WebDevelopmentCompaniesinBangalore = () => {
 
   return (
     <div>
-      
+
       {/* <!-- Meta Pixel Code --> */}
       <Script>
         {`!function(f,b,e,v,n,t,s)
@@ -177,7 +177,7 @@ fbq('track', 'PageView');`}
                   Bangalore is known for its vibrant tech ecosystem, attracting
                   numerous startups, enterprises and companies alike. The city
                   is a hub for digital transformation and{" "}
-                  <a href="https://nakshatranamahacreations.com/website-development-company-in-bangalore">
+                  <a href="https://www.nakshatranamahacreations.com/website-development-company-in-bangalore">
                     {" "}
                     website development{" "}
                   </a>
@@ -215,7 +215,7 @@ fbq('track', 'PageView');`}
                     development, e-commerce solution, CMS, UI/UX and digital
                     marketing services. The key objective of this company is
                     providing end-to-end{" "}
-                    <a href="https://nakshatranamahacreations.com/our-works/website-development">
+                    <a href="https://www.nakshatranamahacreations.com/our-works/website-development">
                       web development services
                     </a>{" "}
                     from the initial design up to deployment and even
@@ -508,7 +508,7 @@ fbq('track', 'PageView');`}
                   needs.
                   <br /> <br />
                   From user-centric designs to performance-optimized{" "}
-                  <a href="https://nakshatranamahacreations.com/contact-us">
+                  <a href="https://www.nakshatranamahacreations.com/contact-us">
                     {" "}
                     websites
                   </a>

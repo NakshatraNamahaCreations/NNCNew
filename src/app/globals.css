@@ -1,12 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+}
+
+.acme-regular {
+  font-family: "Acme", sans-serif;
+
+}
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+}
+
+.alata-regular {
+  font-family: "Alata", sans-serif;
+
+ 
 }
 
 /* styles/globals.css or a module */
@@ -20,10 +38,12 @@
   text-decoration: none;
   color: rgb(37, 37, 37);
 }
+
 .removelinkStyle2 {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -269,6 +289,23 @@ body {
 .search-icon {
   right: 10px;
   /* Adjust icon position */
+}
+
+@media (max-width: 1024px) {
+  .h4-business1 {
+    font-size: 2rem !important;
+    margin-top: -42% !important;
+    padding-left: 2% !important;
+
+  }
+
+  .image-business {
+    top: -20px !important;
+    right: 12px !important;
+  }
+  .bg-business-notice{
+    padding: 17px 16px  !important;
+  }
 }
 
 /* RESPONSIVE FOR TABLET DEVICE (768 px) */
@@ -1157,7 +1194,7 @@ body {
     font-size: 14px !important;
   }
 
-  .floating-label > label {
+  .floating-label>label {
     top: 25% !important;
     left: 25% !important;
   }
@@ -1565,7 +1602,7 @@ body {
   }
 
   .bg-business-notice {
-    padding: 17px 37px !important;
+    padding: 17px 30px !important;
   }
 
   .heading-business {
@@ -1582,18 +1619,19 @@ body {
   .h4-business {
     font-size: 25px !important;
     margin-top: 12% !important;
-    width: 40% !important;
+    width: 60% !important;
     /* margin-left: 27% !important; */
   }
 
   .h4-business1 {
-    font-size: 16px !important;
-    margin-top: -52% !important;
-    letter-spacing: 1px !important;
+    font-size: 32px !important;
+    margin-top: -23% !important;
+    margin-left: -7% !important;
+
   }
 
   .image-business {
-    top: 3px !important;
+    top: -20px !important;
     right: 12px !important;
   }
 
@@ -1695,37 +1733,44 @@ body {
   .career-cover-wrapper img {
     max-width: 100%;
   }
+
   .eyes {
     top: -54px !important;
     left: 20px !important;
     width: 160px !important;
   }
-   .lens-left .eye-left,
-  .lens-right .eye-right{
+
+  .lens-left .eye-left,
+  .lens-right .eye-right {
     width: 20px !important;
     height: 20px !important;
   }
+
   .lens-left,
   .lens-right {
     width: 60px !important;
     height: 60px !important;
     margin: 0px !important;
   }
-  .middle-bridge-box{
+
+  .middle-bridge-box {
     left: -12px !important;
   }
 
   .middle-bridge {
     width: 80px !important;
-       height: 100px !important;
-       
+    height: 100px !important;
+
   }
+
   .circle {
     display: none !important;
   }
+
   .storkeLine {
     display: none !important;
   }
+
   .first-two-para {
     margin: 0 !important;
     padding: 0 !important;
@@ -1733,6 +1778,7 @@ body {
     position: relative;
     top: -80px;
   }
+
   .last-two-para {
     margin: 0 !important;
     padding-left: 50% !important;
@@ -1740,6 +1786,7 @@ body {
     position: relative;
     top: -70px;
   }
+
   .we-help {
     bottom: 100px !important;
     left: 0 !important;
@@ -1750,10 +1797,12 @@ body {
     top: 0 !important;
     left: 0 !important;
   }
+
   .torch-wrapper {
     top: -10px !important;
     left: 150px !important;
   }
+
   .torch-wrapper img {
     width: 200px !important;
     height: 200px !important;
@@ -1862,7 +1911,7 @@ body {
   color: black;
 }
 
-.floating-label > label {
+.floating-label>label {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2433,7 +2482,7 @@ body {
   }
 
   .bg-business-notice {
-    padding: 17px 37px !important;
+    padding: 17px 20px !important;
     /* margin-top: 50% !important; */
   }
 
@@ -2852,6 +2901,21 @@ body {
 
   .job-list-div {
     padding: 10px 0px !important;
+  }
+
+  .h4-business1 {
+    font-size: 14px !important;
+    margin-top: -42% !important;
+width: 60% !important;
+  }
+
+  .image-business {
+    top: -16px !important;
+    right: 12px !important;
+  }
+  .heading-business1 {
+    font-size: 20px !important;
+
   }
 }
 
@@ -3308,10 +3372,12 @@ body {
     gap: 20px !important;
     margin-top: 20px;
   }
+
   .img-container .about-img1-box,
   .img-container .about-img2-box {
     position: static !important;
   }
+
   .img-container .about-img1,
   .img-container .about-img2 {
     position: static !important;

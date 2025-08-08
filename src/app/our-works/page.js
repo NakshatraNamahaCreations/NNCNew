@@ -9,17 +9,17 @@ export const metadata = {
   description:
     "Explore our work showcasing expert portfolio in websites, mobile app development, animation, graphic design and more. Quality solutions to your business needs.",
   alternates: {
-    canonical: "https://nakshatranamahacreations.com/our-works",
+    canonical: "https://www.nakshatranamahacreations.com/our-works",
   },
   openGraph: {
     title: "Our Work Showcase on websites, mobile app, animation and more",
     description:
       "Explore our work showcasing expert portfolio in websites, mobile app development, animation, graphic design and more. Quality solutions to your business needs.",
     type: "website",
-    url: "https://nakshatranamahacreations.com/our-works",
+    url: "https://www.nakshatranamahacreations.com/our-works",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/NNCWebsite_Works_PNG_working.png",
+        url: "https://www.nakshatranamahacreations.com/media/NNCWebsite_Works_PNG_working.png",
         width: 1200,
         height: 630,
         alt: "Our Works Banner",
@@ -33,7 +33,7 @@ export const metadata = {
     description:
       "Explore our work showcasing expert portfolio in websites, mobile app development, animation, graphic design and more. Quality solutions to your business needs.",
     images: [
-      "https://nakshatranamahacreations.com/media/NNCWebsite_Works_PNG_working.png",
+      "https://www.nakshatranamahacreations.com/media/NNCWebsite_Works_PNG_working.png",
     ],
     site: "@nnc_creations",
     creator: "@nnc_creations",

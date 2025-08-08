@@ -226,7 +226,7 @@ const Home = () => {
             "@id": "https://www.nakshatranamahacreations.com/#organization",
             name: "Nakshatra Namaha Creations",
             url: "https://www.nakshatranamahacreations.com",
-            logo: "https://nakshatranamahacreations.com/media/logo.png",
+            logo: "https://www.nakshatranamahacreations.com/media/logo.png",
             contactPoint: {
               "@type": "ContactPoint",
               telephone: "+91-9900566466",

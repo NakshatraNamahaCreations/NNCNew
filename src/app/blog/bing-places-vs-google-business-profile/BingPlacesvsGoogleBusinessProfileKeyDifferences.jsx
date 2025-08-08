@@ -50,14 +50,14 @@ const BingPlacesvsGoogleBusinessProfileKeyDifferences = () => {
     author: {
       "@type": "Person",
       name: "Nakshatra Namaha Creations",
-      url: "https://nakshatranamahacreations.com/blog/bing-places-vs-google-business-profile/",
+      url: "https://www.nakshatranamahacreations.com/blog/bing-places-vs-google-business-profile/",
     },
     publisher: {
       "@type": "Organization",
       name: "Nakshatra Namaha Creations",
       logo: {
         "@type": "ImageObject",
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
       },
     },
     datePublished: "2025-15-05",
@@ -65,7 +65,7 @@ const BingPlacesvsGoogleBusinessProfileKeyDifferences = () => {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://nakshatranamahacreations.com/blog/bing-places-vs-google-business-profile/",
+        "https://www.nakshatranamahacreations.com/blog/bing-places-vs-google-business-profile/",
     },
   };
 
@@ -136,7 +136,7 @@ fbq('track', 'PageView');`}
                 <br />
                 <br />
                 If you're a business owner, marketer, or{" "}
-                <a href="https://nakshatranamahacreations.com/digital-marketing-agency-in-bangalore">
+                <a href="https://www.nakshatranamahacreations.com/digital-marketing-agency-in-bangalore">
                   SEO enthusiast{" "}
                 </a>
                 trying to understand which platform can bring more value to your

@@ -7,18 +7,18 @@ export const metadata = {
   keywords: "AI is Transforming Digital Marketing",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/blog/how-ai-is-transforming-digital-marketing-in-2025",
+      "https://www.nakshatranamahacreations.com/blog/how-ai-is-transforming-digital-marketing-in-2025",
   },
   openGraph: {
     title: "How AI is Transforming Digital Marketing in 2025",
     description:
       "Explore how AI is transforming digital marketing in 2025—improving personalization, automating content, and making data-driven strategies a reality.",
-    url: "https://nakshatranamahacreations.com/blog/how-ai-is-transforming-digital-marketing-in-2025",
+    url: "https://www.nakshatranamahacreations.com/blog/how-ai-is-transforming-digital-marketing-in-2025",
     type: "website",
     siteName: "Nakshatra Namaha Creations",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/blogs/19.png",
+        url: "https://www.nakshatranamahacreations.com/media/blogs/19.png",
         width: 1200,
         height: 630,
         alt: "How AI is Transforming Digital Marketing",
@@ -30,7 +30,7 @@ export const metadata = {
     title: "How AI is Transforming Digital Marketing in 2025",
     description:
       "Explore how AI is transforming digital marketing in 2025—improving personalization, automating content, and making data-driven strategies a reality.",
-    images: ["https://nakshatranamahacreations.com/media/blogs/19.png"],
+    images: ["https://www.nakshatranamahacreations.com/media/blogs/19.png"],
     site: "@nncbengaluru",
   },
 };

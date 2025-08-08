@@ -8,6 +8,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Breadcrumbs from '@/components/BreadCrumbs';
 import BlogContactForm from '@/components/blogs/BlogContactForm';
 import Icons from '@/components/Icons';
+import Script from 'next/script';
 
 const API_BASE_URL = 'https://api.nakshatranamahacreations.in';
 
@@ -57,39 +58,39 @@ const BlogDetailsPage = () => {
 
   const schemaMarkup = blog
     ? {
-        '@context': 'https://schema.org',
-        '@type': 'Article',
-        headline: blog.title,
-        description: blog.metaDescription,
-        author: {
-          '@type': 'Person',
-          name: 'Nakshatra Namaha Creations',
-          url: 'https://nakshatranamahacreations.com/',
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: blog.title,
+      description: blog.metaDescription,
+      author: {
+        '@type': 'Person',
+        name: 'Nakshatra Namaha Creations',
+        url: 'https://www.nakshatranamahacreations.com/',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Nakshatra Namaha Creations',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://www.nakshatranamahacreations.com/media/logo.png',
         },
-        publisher: {
-          '@type': 'Organization',
-          name: 'Nakshatra Namaha Creations',
-          logo: {
-            '@type': 'ImageObject',
-            url: 'https://nakshatranamahacreations.com/media/logo.png',
-          },
-        },
-        datePublished: blog.date,
-        dateModified: blog.date,
-        image: blog.bannerImage,
-        mainEntityOfPage: {
-          '@type': 'WebPage',
-          '@id': `https://nakshatranamahacreations.com/blog/${toUrlFriendly(blog.title)}`,
-        },
-      }
+      },
+      datePublished: blog.date,
+      dateModified: blog.date,
+      image: blog.bannerImage,
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': `https://www.nakshatranamahacreations.com/blog/${toUrlFriendly(blog.title)}`,
+      },
+    }
     : {};
 
   const breadcrumbPaths = blog
     ? [
-        { name: 'Home', link: '/' },
-        { name: 'Blog', link: '/blog' },
-        { name: blog.title, link: `/blog/${toUrlFriendly(blog.title)}` },
-      ]
+      { name: 'Home', link: '/' },
+      { name: 'Blog', link: '/blog' },
+      { name: blog.title, link: `/blog/${toUrlFriendly(blog.title)}` },
+    ]
     : [];
 
   if (loading) return <p>Loading...</p>;
@@ -97,23 +98,8 @@ const BlogDetailsPage = () => {
 
   return (
     <div>
-      <Head>
-        <title>{blog.metaTitle}</title>
-        <meta name="description" content={blog.metaDescription} />
-        <link
-          rel="canonical"
-          href={`https://nakshatranamahacreations.com/blog/${toUrlFriendly(blog.title)}`}
-        />
-        <meta property="og:title" content={blog.metaTitle} />
-        <meta property="og:description" content={blog.metaDescription} />
-        <meta property="og:url" content={`https://nakshatranamahacreations.com/blog/${toUrlFriendly(blog.title)}`} />
-        <meta property="og:image" content={blog.bannerImage} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={blog.metaTitle} />
-        <meta name="twitter:description" content={blog.metaDescription} />
-        <meta name="twitter:image" content={blog.bannerImage} />
-        <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
-      </Head>
+
+      <Script type="application/ld+json">{JSON.stringify(schemaMarkup)}</Script>
 
       <Breadcrumbs paths={breadcrumbPaths} />
 

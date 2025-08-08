@@ -46,21 +46,21 @@ const DvsAnimationWhichIsBetterforYourBusinessGoals = () => {
     author: {
       "@type": "Person",
       name: "Nakshatra Namaha Creations",
-      url: "https://nakshatranamahacreations.com/blog/2d-vs-3d-animation-which-is-better-for-your-business-goals"
+      url: "https://www.nakshatranamahacreations.com/blog/2d-vs-3d-animation-which-is-better-for-your-business-goals"
     },
     publisher: {
       "@type": "Organization",
       name: "Nakshatra Namaha Creations",
       logo: {
         "@type": "ImageObject",
-        url: "https://nakshatranamahacreations.com/media/logo.png"
+        url: "https://www.nakshatranamahacreations.com/media/logo.png"
       }
     },
     datePublished: "2025-15-05",
     dateModified: "2025-15-05",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://nakshatranamahacreations.com/blog/2d-vs-3d-animation-which-is-better-for-your-business-goals"
+      "@id": "https://www.nakshatranamahacreations.com/blog/2d-vs-3d-animation-which-is-better-for-your-business-goals"
     }
   };
 
@@ -72,54 +72,7 @@ const DvsAnimationWhichIsBetterforYourBusinessGoals = () => {
 
   return (
     <div>
-      <Head>
-        <title>2D vs. 3D Animation: Which Is Better for Your Business Goals</title>
-        <meta
-          name="description"
-          content="2D vs. 3D animation—learn which style works best for your business goals. Compare costs, use cases, visual impact, and marketing benefits."
-        />
-        <meta
-          name="keywords"
-          content="2D vs 3D animation, 2D animation for business, 3D animation for marketing, animation for business goals, explainer video animation, 2D vs 3D video business animation choice"
-        />
-        <link
-          rel="canonical"
-          href="https://nakshatranamahacreations.com/blog/2d-vs-3d-animation-which-is-better-for-your-business-goals"
-        />
-
-        {/* Open Graph (OG) Tags */}
-        <meta
-          property="og:title"
-          content="2D vs 3D Animation: Which Is Better for Your Business Goals"
-        />
-        <meta
-          property="og:description"
-          content="2D vs. 3D animation—learn which style works best for your business goals. Compare costs, use cases, visual impact, and marketing benefits."
-        />
-        <meta
-          property="og:url"
-          content="https://nakshatranamahacreations.com/blog/2d-vs-3d-animation-which-is-better-for-your-business-goals"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Nakshatra Namaha Creations" />
-
-        {/* Twitter Card Tags */}
-        <meta name="twitter:card" content="Summary" />
-        <meta
-          name="twitter:title"
-          content="2D vs 3D Animation: Which Is Better for Your Business Goals"
-        />
-        <meta
-          name="twitter:description"
-          content="2D vs. 3D animation—learn which style works best for your business goals. Compare costs, use cases, visual impact, and marketing benefits."
-        />
-        <meta
-          name="twitter:image"
-          content="https://nakshatranamahacreations.com/media/logo.png"
-        />
-        <meta name="twitter:site" content="@nncbengaluru" />
-
-      </Head>
+  
         {/* <!-- Meta Pixel Code --> */}
         <Script>
           {`!function(f,b,e,v,n,t,s)

@@ -9,7 +9,7 @@ import Icons from "@/components/Icons";
 import { HiH3 } from "react-icons/hi2";
 import Image from "next/image";  // Next.js Image component for optimization
 import Head from "next/head";  // Next.js's Head component for SEO
-
+import Script from "next/script";
 const faqData = [
 
     {
@@ -55,60 +55,10 @@ const HowAIisTransformingDigital = () => {
 
     return (
         <div>
-            <Head>
-                <title>How AI is Transforming Digital Marketing in 2025</title>
-                <meta
-                    name="description"
-                    content="Explore how AI is transforming digital marketing in 2025—improving personalization, automating content, and making data-driven strategies a reality."
-                />
-                <meta
-                    name="keywords"
-                    content="AI is Transforming Digital Marketing"
-                />
-                <link
-                    rel="canonical"
-                    href="https://nakshatranamahacreations.com/blog/how-ai-is-transforming-digital-marketing-in-2025"
-                />
-
-                {/* Open Graph (OG) Tags */}
-                <meta
-                    property="og:title"
-                    content="How AI is Transforming Digital Marketing in 2025"
-                />
-                <meta
-                    property="og:description"
-                    content="Explore how AI is transforming digital marketing in 2025—improving personalization, automating content, and making data-driven strategies a reality."
-                />
-                <meta
-                    property="og:url"
-                    content="https://nakshatranamahacreations.com/blog/how-ai-is-transforming-digital-marketing-in-2025"
-                />
-                <meta property="og:type" content="website" />
-                <meta property="og:site_name" content="Nakshatra Namaha Creations" />
-                <meta
-                    property="og:image"
-                    content="https://nakshatranamahacreations.com/media/blogs/19.png"
-                />
-
-                {/* Twitter Card Tags */}
-                <meta name="twitter:card" content="Summary" />
-                <meta
-                    name="twitter:title"
-                    content="How AI is Transforming Digital Marketing in 2025"
-                />
-                <meta
-                    name="twitter:description"
-                    content="Explore how AI is transforming digital marketing in 2025—improving personalization, automating content, and making data-driven strategies a reality."
-                />
-                <meta
-                    name="twitter:image"
-                    content="https://nakshatranamahacreations.com/media/blogs/19.png"
-                />
-                <meta name="twitter:site" content="@nncbengaluru" />
-
+         
 
                 {/* <!-- Meta Pixel Code --> */}
-                <script
+                <Script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: JSON.stringify({
@@ -116,8 +66,8 @@ const HowAIisTransformingDigital = () => {
                             "@type": "Article",
                             "headline": "How AI is Transforming Digital Marketing in 2025",
                             "description": "Explore how AI is transforming digital marketing in 2025—improving personalization, automating content, and making data-driven strategies a reality.",
-                            "url": "https://nakshatranamahacreations.com/blog/ai-transforming-digital-marketing",
-                            "image": " https://nakshatranamahacreations.com /images/need.jpg",
+                            "url": "https://www.nakshatranamahacreations.com/blog/ai-transforming-digital-marketing",
+                            "image": " https://www.nakshatranamahacreations.com /images/need.jpg",
                             "author": {
                                 "@type": "Organization",
                                 "name": " Nakshatra Namaha Creations "
@@ -136,8 +86,8 @@ const HowAIisTransformingDigital = () => {
 
                         )
                     }}
-                ></script>
-                <script
+                ></Script>
+                <Script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: JSON.stringify({
@@ -194,10 +144,7 @@ const HowAIisTransformingDigital = () => {
                             ]
                         })
                     }}
-                ></script>
-
-
-            </Head>
+                ></Script>
 
             <Breadcrumbs paths={breadcrumbPaths} />
             <div
@@ -208,7 +155,7 @@ const HowAIisTransformingDigital = () => {
                     {/* Left-side content */}
                     <Col sm={9}>
                         <div className="position-relative">
-                            <img src="/media/blogs/18.png" width="100%" />
+                            <img src="/media/blogs/19.png" width="100%" />
                             <h1
                                 className="blogHeading1 bg-white shadow mx-4 text-center position-absolute p-2"
                                 style={{ bottom: "-40px", fontSize: "30px" }}
@@ -222,7 +169,7 @@ const HowAIisTransformingDigital = () => {
                             </p>   <br />
 
                             <p style={{ textAlign: "justify" }}>
-                                This change isn't about cutting out being creative—it's about making it better. From small new firms to big names, market folks are seeing how AI is changing <a href="https://nakshatranamahacreations.com/digital-marketing-agency-in-bangalore">digital marketing</a> by making it smarter, quicker, and more on point. Whether you deal with ads, write emails, or look at data, AI is changing the rules—and this is just the start.
+                                This change isn't about cutting out being creative—it's about making it better. From small new firms to big names, market folks are seeing how AI is changing <a href="https://www.nakshatranamahacreations.com/digital-marketing-agency-in-bangalore">digital marketing</a> by making it smarter, quicker, and more on point. Whether you deal with ads, write emails, or look at data, AI is changing the rules—and this is just the start.
                             </p>
 
                             <h4> Table of Contents:</h4>
@@ -273,7 +220,7 @@ const HowAIisTransformingDigital = () => {
 
 
                                 <p style={{ textAlign: "justify" }}>
-                                    By 2025, <a href="https://nakshatranamahacreations.com/digital-marketing-agency-in-bangalore">digital marketing</a> won't just throw out ads to everyone. It will craft special experiences for each person. People now want more than just their names known; they expect brands to get their needs, how they act, and the best time to reach them. AI has made this kind of personal touch easy to scale up, a task too big for just hands-on work.
+                                    By 2025, <a href="https://www.nakshatranamahacreations.com/digital-marketing-agency-in-bangalore">digital marketing</a> won't just throw out ads to everyone. It will craft special experiences for each person. People now want more than just their names known; they expect brands to get their needs, how they act, and the best time to reach them. AI has made this kind of personal touch easy to scale up, a task too big for just hands-on work.
                                 </p>
 
                                 <h3 style={{ fontSize: "20px" }}>

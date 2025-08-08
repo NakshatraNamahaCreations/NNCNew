@@ -179,8 +179,8 @@ export default function DigitalMarketingPage() {
       {
         "@type": "Organization",
         name: "Nakshatra Namaha Creations",
-        url: "https://nakshatranamahacreations.com/",
-        logo: "https://nakshatranamahacreations.com/media/nnclogo.png",
+        url: "https://www.nakshatranamahacreations.com/",
+        logo: "https://www.nakshatranamahacreations.com/media/nnclogo.png",
         sameAs: [
           "https://www.facebook.com/Nakshatranamahacreations/",
           "https://www.linkedin.com/company/nakshatra-namaha-creation/",
@@ -206,8 +206,8 @@ export default function DigitalMarketingPage() {
       {
         "@type": "LocalBusiness",
         name: "Nakshatra Namaha Creations",
-        image: "https://nakshatranamahacreations.com/office-photo.jpg",
-        url: "https://nakshatranamahacreations.com/",
+        image: "https://www.nakshatranamahacreations.com/office-photo.jpg",
+        url: "https://www.nakshatranamahacreations.com/",
         telephone: "+91-9900566466",
         email: "info@nakshatranamahacreations.com",
         address: {
@@ -386,13 +386,13 @@ export default function DigitalMarketingPage() {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://nakshatranamahacreations.com/",
+            item: "https://www.nakshatranamahacreations.com/",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Digital Marketing Agency in Bangalore",
-            item: "https://nakshatranamahacreations.com/digital-marketing-agency-in-bangalore",
+            item: "https://www.nakshatranamahacreations.com/digital-marketing-agency-in-bangalore",
           },
         ],
       },

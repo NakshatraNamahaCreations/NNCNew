@@ -43,14 +43,14 @@ const WhyYourWebsiteNeedsSchemaMarkup = () => {
         author: {
             "@type": "Person",
             name: "Nakshatra Namaha Creations",
-            url: "https://nakshatranamahacreations.com/blog/why-your-website-needs-schema-markup/",
+            url: "https://www.nakshatranamahacreations.com/blog/why-your-website-needs-schema-markup/",
         },
         publisher: {
             "@type": "Organization",
             name: "Nakshatra Namaha Creations",
             logo: {
                 "@type": "ImageObject",
-                url: "https://nakshatranamahacreations.com/media/logo.png",
+                url: "https://www.nakshatranamahacreations.com/media/logo.png",
             },
         },
         datePublished: "2025-15-05",
@@ -58,7 +58,7 @@ const WhyYourWebsiteNeedsSchemaMarkup = () => {
         mainEntityOfPage: {
             "@type": "WebPage",
             "@id":
-                "https://nakshatranamahacreations.com/blog/why-your-website-needs-schema-markup/",
+                "https://www.nakshatranamahacreations.com/blog/why-your-website-needs-schema-markup/",
         },
     };
 
@@ -112,7 +112,7 @@ fbq('track', 'PageView');`}
                 <Row className="">
                     <Col sm={9}>
                         <div className="position-relative ">
-                            <img src="/media/blogs/9.png" width="100%" />
+                            <img src="/media/blogs/10.png" width="100%" />
                             <h1
                                 className="blogHeading1 bg-white shadow mx-4 text-center position-absolute p-2"
                                 style={{ bottom: "-40px", fontSize: "30px" }}

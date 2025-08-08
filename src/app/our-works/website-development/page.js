@@ -8,7 +8,7 @@ export const metadata = {
     "Website Development, Website Design, WordPress Design, Static Website, Dynamic Website, ECommerce Website",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/our-works/website-development",
+      "https://www.nakshatranamahacreations.com/our-works/website-development",
   },
 };
 

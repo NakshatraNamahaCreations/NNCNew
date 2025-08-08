@@ -57,14 +57,14 @@ const TopMobileAppIdeasforRestaurantandFoodBusinesses = () => {
     author: {
       "@type": "Person",
       name: "Nakshatra Namaha Creations",
-      url: "https://nakshatranamahacreations.com/",
+      url: "https://www.nakshatranamahacreations.com/",
     },
     publisher: {
       "@type": "Organization",
       name: "Nakshatra Namaha Creations",
       logo: {
         "@type": "ImageObject",
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
       },
     },
     datePublished: "2025-05-30",
@@ -72,7 +72,7 @@ const TopMobileAppIdeasforRestaurantandFoodBusinesses = () => {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://nakshatranamahacreations.com/blog/top-mobile-app-ideas-for-restaurant-food-businesses",
+        "https://www.nakshatranamahacreations.com/blog/top-mobile-app-ideas-for-restaurant-food-businesses",
     },
   };
 

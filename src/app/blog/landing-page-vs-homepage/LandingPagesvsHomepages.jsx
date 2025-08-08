@@ -58,7 +58,7 @@ const LandingPagesvsHomepages = () => {
       name: "Nakshatra Namaha Creations",
       logo: {
         "@type": "ImageObject",
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
       },
     },
     datePublished: "2025-15-05",
@@ -66,7 +66,7 @@ const LandingPagesvsHomepages = () => {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://nakshatranamahacreations.com/blog/landing-page-vs-homepage",
+        "https://www.nakshatranamahacreations.com/blog/landing-page-vs-homepage",
     },
   };
 
@@ -121,7 +121,7 @@ fbq('track', 'PageView');`}
           {/* Left-side content */}
           <Col sm={9}>
             <div className="position-relative">
-              <img src="/media/blogs/10.png" width="100%" />
+              <img src="/media/blogs/11.png" width="100%" />
               <h1
                 className="blogHeading1 bg-white shadow mx-4 text-center position-absolute p-2"
                 style={{ bottom: "-40px", fontSize: "30px" }}

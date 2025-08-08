@@ -7,8 +7,8 @@ import BlogContactForm from "@/components/blogs/BlogContactForm";
 import Breadcrumbs from "@/components/BreadCrumbs";
 import Icons from "@/components/Icons";
 import { HiH3 } from "react-icons/hi2";
-import Image from "next/image";  // Next.js Image component for optimization
-import Head from "next/head";  // Next.js's Head component for SEO
+import Image from "next/image"; 
+import Head from "next/head";  
 import Script from "next/script";
 
 const faqData = [
@@ -75,8 +75,8 @@ const ImportanceofResponsiveDesign = () => {
                             "@type": "Article",
                             "headline": "Importance of Responsive Design in Modern Web Development",
                             "description": "Learn the importance of responsive design in modern web development. Discover how it improves your UI/UX, SEO, conversions and adapts to every screen size.",
-                            "url": "https://nakshatranamahacreations.com/blog/importance-of-responsive-design-in-modern-web-development",
-                            "image": " https://nakshatranamahacreations.com /images/need.jpg",
+                            "url": "https://www.nakshatranamahacreations.com/blog/importance-of-responsive-design-in-modern-web-development",
+                            "image": " https://www.nakshatranamahacreations.com /images/need.jpg",
                             "author": {
                                 "@type": "Organization",
                                 "name": " Nakshatra Namaha Creations "
@@ -211,7 +211,7 @@ const ImportanceofResponsiveDesign = () => {
                                 What Is Responsive Design
                             </h2>
                             <p style={{ textAlign: "justify" }}>
-                                Responsive design is a process that embraces change in a <a href="https://nakshatranamahacreations.com/">website's appearance</a> depending on what device is being used. It doesn't matter if someone is using a phone, tablet, laptop or smart TV, the website will "respond" to the present device and adjust to ensure everything is readable, usable and navigate-able.
+                                Responsive design is a process that embraces change in a <a href="https://www.nakshatranamahacreations.com/">website's appearance</a> depending on what device is being used. It doesn't matter if someone is using a phone, tablet, laptop or smart TV, the website will "respond" to the present device and adjust to ensure everything is readable, usable and navigate-able.
                             </p>
 
                             <p style={{ textAlign: "justify" }}>
@@ -255,7 +255,7 @@ const ImportanceofResponsiveDesign = () => {
                                     ● Google prioritizes mobile
                                 </h3>
                                 <p style={{ textAlign: "justify" }}>
-                                    Since 2019, Google has been prioritizing <a href="https://nakshatranamahacreations.com/mobile-app-development-company-in-bangalore">mobile versions</a> of websites in regards to indexing. This means the mobile version of your website is what matters in how well your website will display in search results to visitors.
+                                    Since 2019, Google has been prioritizing <a href="https://www.nakshatranamahacreations.com/mobile-app-development-company-in-bangalore">mobile versions</a> of websites in regards to indexing. This means the mobile version of your website is what matters in how well your website will display in search results to visitors.
                                 </p>
                             </div>
 

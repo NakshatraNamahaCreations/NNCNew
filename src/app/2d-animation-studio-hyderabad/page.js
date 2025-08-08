@@ -8,18 +8,18 @@ export const metadata = {
     "2D animation studio Hyderabad, explainer video Hyderabad, motion graphics services, character animation Hyderabad, business animation Hyderabad",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/2d-animation-studio-hyderabad",
+      "https://www.nakshatranamahacreations.com/2d-animation-studio-hyderabad",
   },
   openGraph: {
     type: "website",
-    url: "https://nakshatranamahacreations.com/2d-animation-studio-hyderabad",
+    url: "https://www.nakshatranamahacreations.com/2d-animation-studio-hyderabad",
     title: "2D Animation Studio in Hyderabad | Explainer & Motion Design",
     description:
       "Hire a professional 2D animation studio in Hyderabad for explainer videos, motion graphics, and character animation. Creative visuals for business and brands.",
     siteName: "Nakshatra Namaha Creations",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
         alt: "2D Animation Studio in Hyderabad",
       },
     ],
@@ -31,7 +31,7 @@ export const metadata = {
     description:
       "Hire a professional 2D animation studio in Hyderabad for explainer videos, motion graphics, and character animation. Creative visuals for business and brands.",
     images: [
-      "https://nakshatranamahacreations.com/media/logo.png",
+      "https://www.nakshatranamahacreations.com/media/logo.png",
     ],
   },
 };

@@ -7,15 +7,15 @@ export const metadata = {
     openGraph: {
       title: "Website & Mobile App Developers | Career Opportunities in Bangalore",
       description: "Explore exciting career opportunities in Bangalore for website developers and mobile app developers. Join our company and grow your technical career today.",
-      url: "https://nakshatranamahacreations.com/careers",
-      image: "https://nakshatranamahacreations.com/media/NNCWebsite_CareerPage_PNG_CareerCoverImage.png",
+      url: "https://www.nakshatranamahacreations.com/careers",
+      image: "https://www.nakshatranamahacreations.com/media/NNCWebsite_CareerPage_PNG_CareerCoverImage.png",
       site_name: "Nakshatra Namaha Creations",
     },
     twitter: {
       card: "summary_large_image",
       title: "Website & Mobile App Developers | Career Opportunities in Bangalore",
       description: "Explore exciting career opportunities in Bangalore for website developers and mobile app developers. Join our company and grow your technical career today.",
-      image: "https://nakshatranamahacreations.com/media/NNCWebsite_CareerPage_PNG_CareerCoverImage.png",
+      image: "https://www.nakshatranamahacreations.com/media/NNCWebsite_CareerPage_PNG_CareerCoverImage.png",
       site: "@nnc_creations",
       creator: "@nnc_creations",
     },

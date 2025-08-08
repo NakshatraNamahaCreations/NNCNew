@@ -50,80 +50,6 @@ const faqData = [
 
 ];
 
-// const companiesData = [
-//   {
-//     id: 1,
-//     companyName: "Zinavo Private Limited",
-//     des: "Zinavo is a digital agency that specializes in web development and digital marketing, providing an innovative solution in bringing about improvements in the online presence of businesses through user-friendly websites and successful digital strategies.",
-//     address:
-//       "2nd Floor,, No. 31, Main Chairman Layout, 9h B, HRBR Layout 1st Block, Balaji Layout, Subbaiahnapalya, Banaswadi, Bengaluru, Karnataka 560043",
-//     rating: "4.6/5",
-//   },
-//   {
-//     id: 2,
-//     companyName: "DxMinds",
-//     des: "DxMinds excels in developing mobile apps using the latest technologies like artificial intelligence and blockchain. Their ability to adapt to client-specific requirements and provide innovative solutions sets them apart. They work closely with clients to create apps that are both functional and forward-thinking. DxMinds has built a strong reputation for reliability and technical expertise.",
-//     address:
-//       "61, 1st Floor, 12th Cross, 7th Main Rd, BTM 2nd Stage, Bengaluru, Karnataka 560076.",
-//     rating: "4.6/5",
-//   },
-//   {
-//     id: 3,
-//     companyName: "GoodWorkLabs",
-//     des: "GoodWorkLabs is known for its mobile app development and software product expertise. They focus on delivering apps with intuitive designs and smooth performance. The company has worked with many high-profile clients, building trust through its consistent quality and attention to detail. Their ability to combine creativity with technical skills has made them a leading player in the industry.",
-//     address:
-//       "Plot No. 72 & 73,4th Floor, Akshay Tech Park, EPIP Zone Whitefield Rd, Bengaluru, Karnataka 560066.",
-//     rating: " 4.1/5",
-//   },
-//   {
-//     id: 4,
-//     companyName: "FuGenX Technologies",
-//     des: "FuGenX is a recognized name in app development, particularly for creating engaging mobile apps and games. Their extensive experience allows them to handle projects for startups and large enterprises alike. FuGenX emphasizes creating user-friendly applications that deliver a great experience, earning them high ratings from their clients.",
-//     address:
-//       "#26, 6/A, 23rd Main Rd, R.K Colony, Marenahalli, 2nd Phase, J. P. Nagar, Bengaluru, Karnataka 560078.",
-//     rating: "3.3/5",
-//   },
-//   {
-//     id: 5,
-//     companyName: "Ailoitte",
-//     des: "Ailoitte is a dynamic company that develops robust mobile apps for various industries. They work with startups and established businesses, ensuring that their apps align with the client's goals. Ailoitte’s dedication to building reliable and scalable apps has helped them gain a solid reputation in the app development space.",
-//     address:
-//       "L, 148, 5th Main Rd, Santhosapuram, Sector 6, HSR Layout, Bengaluru, Karnataka 560102.",
-//     rating: "4.8/5",
-//   },
-//   {
-//     id: 6,
-//     companyName: "Render Infotech",
-//     des: "Render Infotech provides mobile app development and digital marketing services. They focus on helping businesses establish a strong digital presence through reliable and functional apps. Their approach ensures that each project meets the client’s specific objectives while maintaining high quality and performance.",
-//     address:
-//       "No.10, 5th Floor Sambrudi, Building, ISRO Rd, off New BEL Road, Bengaluru, Karnataka 560094.",
-//     rating: "4.8/5",
-//   },
-//   {
-//     id: 7,
-//     companyName: "Brill Mindz Technologies",
-//     des: "Brill Mindz is a well-known mobile app development company with expertise in creating interactive apps and games. They prioritize building apps that are easy to use and meet the client’s specific needs. Brill Mindz’s commitment to quality and understanding of market trends makes them a preferred choice for app development.",
-//     address:
-//       "572, 1st Floor, 6th F Cross Rd, 6th Block, Koramangala, Bengaluru, Karnataka 560095.",
-//     rating: "4.6/5",
-//   },
-//   {
-//     id: 8,
-//     companyName: "Cumulations Technologies",
-//     des: "Cumulations specializes in mobile app development and IoT solutions. They focus on delivering apps with seamless functionality for Android and iOS platforms. Their experience in IoT enables them to create connected solutions, making them a go-to choice for clients seeking integrated technologies.",
-//     address:
-//       "2, 601/B, 5th Floor, Sriven Rag Landmark, Near Marvin Leather, Hosur Main Road, Wilson Garden, Bengaluru, Karnataka 560027.",
-//     rating: "4.5/5",
-//   },
-//   {
-//     id: 9,
-//     companyName: "SeekNEO",
-//     des: "SeekNEO offers comprehensive services in mobile app development, web design and digital marketing. They are committed to providing affordable and effective solutions for businesses. SeekNEO’s focus on client satisfaction and practical solutions has earned them positive reviews and long-term partnerships.",
-//     address:
-//       "Trux space, Mahaganapathi Nagar, 6th phase 1st stage, RajajiNagar Industrial Town, Rajajinagar, Bengaluru, Karnataka 560044.",
-//     rating: "4.8/5",
-//   },
-// ];
 
 const DoINeedaWebsiteoraWebApp = () => {
     const faqRef = useRef(null);
@@ -154,8 +80,8 @@ const DoINeedaWebsiteoraWebApp = () => {
                             "@type": "Article",
                             "headline": "Do I Need a Website or Web App, Here's How to Decide",
                             "description": "Not sure if you need a website or web app? Learn the differences, real-world use cases, and how to make the right choice for your business or project.",
-                            "url": "https://nakshatranamahacreations.com/blog/do-i-need-a-website-or-web-app",
-                            "image": "https://nakshatranamahacreations.com/images/need.jpg",
+                            "url": "https://www.nakshatranamahacreations.com/blog/do-i-need-a-website-or-web-app",
+                            "image": "https://www.nakshatranamahacreations.com/images/need.jpg",
                             "author": {
                                 "@type": "Organization",
                                 "name": "Nakshatra Namaha Creations"
@@ -165,7 +91,7 @@ const DoINeedaWebsiteoraWebApp = () => {
                                 "name": "Nakshatra Namaha Creations",
                                 "logo": {
                                     "@type": "ImageObject",
-                                    "url": "https://nakshatranamahacreations.com/media/nakshatralogo.jpg"
+                                    "url": "https://www.nakshatranamahacreations.com/media/nakshatralogo.jpg"
                                 }
                             },
                             "datePublished": "2025-07-02T00:00:00Z",
@@ -306,7 +232,7 @@ const DoINeedaWebsiteoraWebApp = () => {
                                 <h3> Primary Functions of a Website:</h3>
 
                                 <a
-                                    href="https://nakshatranamahacreations.com/about-us"
+                                    href="https://www.nakshatranamahacreations.com/about-us"
                                     style={{ textDecoration: "none", color: "#000" }}
                                 >
                                     <p>
@@ -322,7 +248,7 @@ const DoINeedaWebsiteoraWebApp = () => {
                                     </p>
                                 </a>
                                 <a
-                                    href="https://nakshatranamahacreations.com/website-development-company-in-bangalore"
+                                    href="https://www.nakshatranamahacreations.com/website-development-company-in-bangalore"
                                     style={{ textDecoration: "none", color: "#000" }}
                                 >
                                     <p>
@@ -454,7 +380,7 @@ const DoINeedaWebsiteoraWebApp = () => {
                                     ●  <span className="fw-bold">Showcasing and landing pages </span>Perfect for deals, new stuff kick-offs, or one-page deals talks. You can push folks to it with ads or by making it easy to find, and get names with easy forms.
                                 </p>
                                 <a
-                                    href="https://nakshatranamahacreations.com/our-works"
+                                    href="https://www.nakshatranamahacreations.com/our-works"
                                     style={{ textDecoration: "none", color: "#000" }}
                                 >
                                     <p>

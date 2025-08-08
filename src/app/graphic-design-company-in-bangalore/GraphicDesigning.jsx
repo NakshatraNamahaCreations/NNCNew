@@ -214,8 +214,8 @@ export default function GraphicDesigning() {
       {
         "@type": "Organization",
         name: "Nakshatra Namaha Creations",
-        url: "https://nakshatranamahacreations.com/",
-        logo: "https://nakshatranamahacreations.com/media/nnclogo.png",
+        url: "https://www.nakshatranamahacreations.com/",
+        logo: "https://www.nakshatranamahacreations.com/media/nnclogo.png",
         sameAs: [
           "https://www.facebook.com/Nakshatranamahacreations/",
           "https://www.instagram.com/nnc.digitalbengaluru/",
@@ -242,8 +242,8 @@ export default function GraphicDesigning() {
       {
         "@type": "LocalBusiness",
         name: "Nakshatra Namaha Creations",
-        image: "https://nakshatranamahacreations.com/media/Group117.png",
-        url: "https://nakshatranamahacreations.com/graphic-design-company-in-bangalore",
+        image: "https://www.nakshatranamahacreations.com/media/Group117.png",
+        url: "https://www.nakshatranamahacreations.com/graphic-design-company-in-bangalore",
         telephone: "+91-9900566466",
         email: "info@nakshatranamahacreations.com",
         address: {
@@ -420,13 +420,13 @@ export default function GraphicDesigning() {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://nakshatranamahacreations.com/",
+            item: "https://www.nakshatranamahacreations.com/",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Website Development Service",
-            item: "https://nakshatranamahacreations.com/mobile-app-development-company-in-bangalore",
+            item: "https://www.nakshatranamahacreations.com/mobile-app-development-company-in-bangalore",
           },
         ],
       },

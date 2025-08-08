@@ -6,9 +6,7 @@ import BlogFAQ from "@/components/blogs/BlogFAQ";
 import BlogContactForm from "@/components/blogs/BlogContactForm";
 import Breadcrumbs from "@/components/BreadCrumbs";
 import Icons from "@/components/Icons";
-import { HiH3 } from "react-icons/hi2";
-import Image from "next/image";  
-import Head from "next/head";  
+
 import Script from "next/script";
 
 const faqData = [
@@ -59,7 +57,7 @@ const WebDevelopmentCompanyvsWebDevelopmentAgency = () => {
       name: "Nakshatra Namaha Creations",
       logo: {
         "@type": "ImageObject",
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
       },
     },
     datePublished: "2025-15-05",
@@ -67,7 +65,7 @@ const WebDevelopmentCompanyvsWebDevelopmentAgency = () => {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://nakshatranamahacreations.com/blog/web-development-company-vs-web-development-agency",
+        "https://www.nakshatranamahacreations.com/blog/web-development-company-vs-web-development-agency",
     },
   };
 
@@ -171,7 +169,7 @@ fbq('track', 'PageView');`}
                   What is a Web Development Company?
                 </h2>
                 <p style={{ textAlign: "justify" }}>
-                  A <a href="https://nakshatranamahacreations.com/our-works/website-development">web development </a>company is a specialized organization focused primarily on building and maintaining websites and web applications. These companies typically have in-house teams of developers, designers and project managers who work together to deliver web solutions. They are structured and process-driven, providing services such as front-end development, back-end development and technical support. Web development companies often cater to a wide range of industries and are known for delivering reliable, scalable and secure web solutions.
+                  A <a href="https://www.nakshatranamahacreations.com/our-works/website-development">web development </a>company is a specialized organization focused primarily on building and maintaining websites and web applications. These companies typically have in-house teams of developers, designers and project managers who work together to deliver web solutions. They are structured and process-driven, providing services such as front-end development, back-end development and technical support. Web development companies often cater to a wide range of industries and are known for delivering reliable, scalable and secure web solutions.
                 </p>
               </div>
               <div id="react">
@@ -229,7 +227,7 @@ fbq('track', 'PageView');`}
                   Conclusion
                 </h2>
                 <p style={{ textAlign: "justify" }}>
-                  Both web development companies and web development agencies can provide high-quality services, but their core differences lie in their focus and range of offerings. If your business needs a technically robust website or application, a web development company might be the right choice. If you're looking for a broader set of digital services, including marketing and design, then a <a href="https://nakshatranamahacreations.com/contact-us">web development </a>agency could be a better fit.
+                  Both web development companies and web development agencies can provide high-quality services, but their core differences lie in their focus and range of offerings. If your business needs a technically robust website or application, a web development company might be the right choice. If you're looking for a broader set of digital services, including marketing and design, then a <a href="https://www.nakshatranamahacreations.com/contact-us">web development </a>agency could be a better fit.
                 </p>
               </div>
             </div>

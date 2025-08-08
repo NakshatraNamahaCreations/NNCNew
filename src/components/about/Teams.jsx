@@ -13,20 +13,20 @@ const line = "/media/NNCWebsite_AboutUsPage_Whychooseus.png";
 const harish = "/media/NNCWebsite_AboutUsPage_HarishSir.webp";
 const anasha = "/media/NNCWebsite_AboutUsPage_AnjanaMam.webp";
 const lisha = "/media/NNCWebsite_AboutUsPage_Lisha.webp";
-const anil = "/media/NNCWebsite_AboutUsPage_Anil.webp";
+const anil = "/media/teams/Anil.jpeg";
 // import sherya from "/public/media/NNCWebsite_AboutUsPage_Shreya.png";
-const yogesh = "/media/NNCWebsite_AboutUsPage_Yogesh.webp";
-const suman = "/media/NNCWebsite_AboutUsPage_Suman.webp";
-const kavana = "/media/NNCWebsite_AboutUsPage_Kavana.webp";
-const kruthika = "/media/NNCWebsite_AboutUsPage_Kruthika.webp";
-const jayapath = "/media/NNCWebsite_AboutUsPage_Jayanth.jpg";
-const guru = "/media/NNCWebsite_AboutUsPage_Guru.webp";
-const Dashavantha = "/media/NNCWebsite_AboutUsPage_Daswant.jpg";
+const yogesh = "/media/teams/Yogesh.jpeg";
+const suman = "/media/teams/Suman.jpeg";
+const kavana = "/media/teams/Kavana.jpeg";
+const kruthika = "/media/teams/Kiruthika.jpeg";
+const jayapath = "/media/teams/Jayanth.jpeg";
+const guru = "/media/teams/Guru.jpeg";
+const Dashavantha = "/media/teams/Dashu.jpeg";
 // const Medini = "/media/NNCWebsite_AboutUsPage_Medini.jpg";
 const Dhanalakshmi = "/media/NNCWebsite_AboutUsPage_Dhanlakshmi.jpg";
-const Sonali = "/media/NNCWebsite_AboutUsPage_Sonali.jpg";
+const Sonali = "/media/teams/Sonali.jpeg";
 // const Anup = "/media/NNCWebsite_AboutUsPage_Anup.jpg";
-const Sathish = "/media/NNCWebsite_AboutUsPage_Sathish.jpg";
+const Sathish = "/media/teams/Satish.jpeg";
 
 export default function Teams() {
   const { ref: headingRef, inView: headingInView } = useInView({ triggerOnce: true, threshold: 0.5 });
@@ -48,21 +48,21 @@ export default function Teams() {
   });
 
   const teamMembers = [
-    { image: harish, alt: "harish", name: "Harish J N", title: "Founder & Managing Director" },
-    { image: anasha, alt: "anasha", name: "Anjana DR", title: "Operation Manager" },
-    { image: lisha, alt: "lisha", name: "Lisha KR", title: "Strategic Analyst & Business Development Manager" },
+    // { image: harish, alt: "harish", name: "Harish J N", title: "Founder & Managing Director" },
+    // { image: anasha, alt: "anasha", name: "Anjana DR", title: "Operation Manager" },
+    // { image: lisha, alt: "lisha", name: "Lisha KR", title: "Strategic Analyst & Business Development Manager" },
     { image: anil, alt: "anil", name: "Anil Dev", title: "Sr Analyst - Graphic Designer & Content Creator" },
     { image: yogesh, alt: "yogesh", name: "Yogesh PV", title: "Sr Analyst - Mobile App Developer" },
     { image: suman, alt: "suman", name: "Suman Raj", title: "Analyst - Mobile App Developer" },
     { image: kavana, alt: "kavana", name: "Kavana NP", title: "Sr Analyst - Website Developer" },
     { image: kruthika, alt: "kruthika", name: "Kiruthika M", title: "Mobile App Developer" },
+    { image: Sonali, alt: "Sonali", name: "Sonali Keshri", title: "Frontend Developer" },
     { image: jayapath, alt: "jayapath", name: "Jayanth P", title: "Associate Mobile App Developer" },
     { image: guru, alt: "guru", name: "GuruDarshan D Hegde", title: "SEO Analyst" },
     { image: Dashavantha, alt: "Dashavantha", name: "Dashavantha K.M.", title: "Motion Graphic Designer" },
-    // { image: Medini, alt: "Medini", name: "Medini C.M.", title: "Accountant" },
-    { image: Dhanalakshmi, alt: "Dhanalakshmi", name: "Dhanalakshmi S B", title: "Frontend Developer" },
-    { image: Sonali, alt: "Sonali", name: "Sonali Keshri", title: "Frontend Developer" },
-    // { image: Anup, alt: "Anup", name: "Anup Chakra", title: "Full Stack Developer" },
+  
+    // { image: Dhanalakshmi, alt: "Dhanalakshmi", name: "Dhanalakshmi S B", title: "Frontend Developer" },
+  
     { image: Sathish, alt: "Sathish", name: "Sathish", title: "QA Analyst" },
   ];
 
@@ -123,7 +123,7 @@ export default function Teams() {
                     layout="responsive" // Ensures responsive layout
                     style={{ borderRadius: "50%" }}
                   />
-                  <div
+                  {/* <div
                     style={{
                       position: "absolute",
                       bottom: "10px",
@@ -137,7 +137,7 @@ export default function Teams() {
                   >
                     <h5 style={{ fontSize: "16px", fontWeight: "bold" }}>{member.name}</h5>
                     <p style={{ fontSize: "14px", fontWeight: "400" }}>{member.title}</p>
-                  </div>
+                  </div> */}
                 </div>
               </Col>
             ))}

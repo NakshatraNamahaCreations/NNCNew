@@ -9,18 +9,18 @@ export const metadata = {
     "animation for business branding, brand identity animation, increase brand memorability, animated explainer for business, stand out with animation",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/blog/animation-for-brand-identity",
+      "https://www.nakshatranamahacreations.com/blog/animation-for-brand-identity",
   },
   openGraph: {
     title: "How Animation Strengthens Your Brand Identity",
     description:
       "Discover how animation boosts brand recall, simplifies messaging, and differentiates your business. See 5 ways it can elevate your brand identity today.",
-    url: "https://nakshatranamahacreations.com/blog/animation-for-brand-identity",
+    url: "https://www.nakshatranamahacreations.com/blog/animation-for-brand-identity",
     type: "website",
     siteName: "Nakshatra Namaha Creations",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
         width: 1200,
         height: 630,
         alt: "Animation for Brand Identity",
@@ -32,7 +32,7 @@ export const metadata = {
     title: "How Animation Strengthens Your Brand Identity",
     description:
       "Discover how animation boosts brand recall, simplifies messaging, and differentiates your business. See 5 ways it can elevate your brand identity today.",
-    images: ["https://nakshatranamahacreations.com/media/logo.png"],
+    images: ["https://www.nakshatranamahacreations.com/media/logo.png"],
     site: "@nncbengaluru",
   },
 };

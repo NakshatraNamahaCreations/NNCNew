@@ -7,18 +7,18 @@ export const metadata = {
   keywords:
     "Discover how 2D animation for websites can boost user engagement, explain products better, and drive higher conversions with visual storytelling.",
   alternates: {
-    canonical: "https://nakshatranamahacreations.com/blog/2d-animation-for-websites",
+    canonical: "https://www.nakshatranamahacreations.com/blog/2d-animation-for-websites",
   },
   openGraph: {
     title: "Importance of Responsive Design in Modern Web Development",
     description:
       "Not sure if you need a website or web app? Learn the differences, real-world use cases, and how to make the right choice for your business or project.",
-    url: "https://nakshatranamahacreations.com/blog/2d-animation-for-websites",
+    url: "https://www.nakshatranamahacreations.com/blog/2d-animation-for-websites",
     type: "website",
     siteName: "Nakshatra Namaha Creations",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/blogs/18.png",
+        url: "https://www.nakshatranamahacreations.com/media/blogs/18.png",
         width: 1200,
         height: 630,
         alt: "Importance of Responsive Design",
@@ -30,7 +30,7 @@ export const metadata = {
     title: "Importance of Responsive Design in Modern Web Development",
     description:
       "Not sure if you need a website or web app? Learn the differences, real-world use cases, and how to make the right choice for your business or project.",
-    images: ["https://nakshatranamahacreations.com/media/blogs/18.png"],
+    images: ["https://www.nakshatranamahacreations.com/media/blogs/18.png"],
     site: "@nncbengaluru",
   },
   other: {
@@ -41,8 +41,8 @@ export const metadata = {
       headline: "Importance of Responsive Design in Modern Web Development",
       description:
         "Learn the importance of responsive design in modern web development. Discover how it improves your UI/UX, SEO, conversions and adapts to every screen size.",
-      url: "https://nakshatranamahacreations.com/blog/2d-animation-for-websites",
-      image: "https://nakshatranamahacreations.com/images/need.jpg",
+      url: "https://www.nakshatranamahacreations.com/blog/2d-animation-for-websites",
+      image: "https://www.nakshatranamahacreations.com/images/need.jpg",
       author: {
         "@type": "Organization",
         name: "Nakshatra Namaha Creations",
@@ -52,7 +52,7 @@ export const metadata = {
         name: "Nakshatra Namaha Creations",
         logo: {
           "@type": "ImageObject",
-          url: "https://nakshatranamahacreations.com/media/nakshatralogo.jpg",
+          url: "https://www.nakshatranamahacreations.com/media/nakshatralogo.jpg",
         },
       },
       datePublished: "2025-07-05T00:00:00Z",

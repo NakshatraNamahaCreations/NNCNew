@@ -57,8 +57,8 @@ const TenWaystoUse2DAnimation = () => {
                             "@type": "Article",
                             "headline": "Importance of Responsive Design in Modern Web Development",
                             "description": "Learn the importance of responsive design in modern web development. Discover how it improves your UI/UX, SEO, conversions and adapts to every screen size.",
-                            "url": "https://nakshatranamahacreations.com/blog/2d-animation-for-websites",
-                            "image": " https://nakshatranamahacreations.com /images/need.jpg",
+                            "url": "https://www.nakshatranamahacreations.com/blog/2d-animation-for-websites",
+                            "image": " https://www.nakshatranamahacreations.com /images/need.jpg",
                             "author": {
                                 "@type": "Organization",
                                 "name": " Nakshatra Namaha Creations "
@@ -157,7 +157,7 @@ const TenWaystoUse2DAnimation = () => {
 
                             </p>   <br />
                             <a
-                                href="https://nakshatranamahacreations.com/blog/animation-for-brand-identity/"
+                                href="https://www.nakshatranamahacreations.com/blog/animation-for-brand-identity/"
                                 style={{ textDecoration: "none", color: "#000" }}
                             >
                                 <p style={{ textAlign: "justify" }}>
@@ -208,7 +208,7 @@ const TenWaystoUse2DAnimation = () => {
                                 We've all hit sites that felt dull and flat. And we've also found pages that got us with just a few things that moved—like a button that jumped, a figure that waved, or a number that grew as we watched.
                             </p>
                             <a
-                                href="https://nakshatranamahacreations.com/2d-animation-studio-in-bangalore"
+                                href="https://www.nakshatranamahacreations.com/2d-animation-studio-in-bangalore"
                                 style={{ textDecoration: "none", color: "#000" }}
                             >
                                 <p style={{ textAlign: "justify" }}>
@@ -500,7 +500,7 @@ const TenWaystoUse2DAnimation = () => {
                                     Conclusion
                                 </h2>
                                 <a
-                                    href="https://nakshatranamahacreations.com/2d-animation-studio-in-bangalore"
+                                    href="https://www.nakshatranamahacreations.com/2d-animation-studio-in-bangalore"
                                     style={{ textDecoration: "none", color: "#000" }}
                                 >
                                     <p style={{ textAlign: "justify" }}>

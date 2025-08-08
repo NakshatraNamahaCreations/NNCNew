@@ -8,18 +8,18 @@ export const metadata = {
     "local SEO, local SEO guide, local SEO for business, local search optimization, Google My Business, local SEO tips, improve local SEO",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/blog/local-seo-complete-guide/",
+      "https://www.nakshatranamahacreations.com/blog/local-seo-complete-guide/",
   },
   openGraph: {
     title: "Local SEO Guide: Boost Your Business Visibility Locally",
     description:
       "Discover how local SEO helps your business get found by nearby customers and increase sales. Learn simple steps to optimize your local presence.",
-    url: "https://nakshatranamahacreations.com/blog/local-seo-complete-guide/",
+    url: "https://www.nakshatranamahacreations.com/blog/local-seo-complete-guide/",
     type: "website",
     siteName: "Nakshatra Namaha Creations",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/nnclogo.png",
+        url: "https://www.nakshatranamahacreations.com/media/nnclogo.png",
         width: 1200,
         height: 630,
         alt: "Local SEO Guide",
@@ -31,7 +31,7 @@ export const metadata = {
     title: "Local SEO Guide: Boost Your Business Visibility Locally",
     description:
       "Discover how local SEO helps your business get found by nearby customers and increase sales. Learn simple steps to optimize your local presence.",
-    images: ["https://nakshatranamahacreations.com/media/nnclogo.png"],
+    images: ["https://www.nakshatranamahacreations.com/media/nnclogo.png"],
     site: "@nncbengaluru",
   },
 };

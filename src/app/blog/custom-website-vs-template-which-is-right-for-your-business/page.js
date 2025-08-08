@@ -9,18 +9,18 @@ export const metadata = {
     "custom website, template website, website design options, custom web development, website templates, business website, website cost comparison, website scalability, Nakshatra Namaha Creations",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/blog/custom-website-vs-template-which-is-right-for-your-business/",
+      "https://www.nakshatranamahacreations.com/blog/custom-website-vs-template-which-is-right-for-your-business/",
   },
   openGraph: {
     title: "Custom Website vs Template: What’s Best for Your Business?",
     description:
       "Discover the key differences between custom and template websites to choose the right option that fits your business needs, budget, and long-term growth.",
-    url: "https://nakshatranamahacreations.com/blog/custom-website-vs-template-which-is-right-for-your-business/",
+    url: "https://www.nakshatranamahacreations.com/blog/custom-website-vs-template-which-is-right-for-your-business/",
     type: "website",
     siteName: "Nakshatra Namaha Creations",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/nnclogo.png",
+        url: "https://www.nakshatranamahacreations.com/media/nnclogo.png",
         width: 1200,
         height: 630,
         alt: "Custom Website vs Template",
@@ -32,7 +32,7 @@ export const metadata = {
     title: "Custom Website vs Template: What’s Best for Your Business?",
     description:
       "Discover the key differences between custom and template websites to choose the right option that fits your business needs, budget, and long-term growth.",
-    images: ["https://nakshatranamahacreations.com/media/nnclogo.png"],
+    images: ["https://www.nakshatranamahacreations.com/media/nnclogo.png"],
     site: "@nncbengaluru",
   },
 };

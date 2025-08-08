@@ -54,14 +54,14 @@ const LocalSEO = () => {
         author: {
             "@type": "Person",
             name: "Nakshatra Namaha Creations",
-            url: "https://nakshatranamahacreations.com/blog/local-seo-complete-guide/",
+            url: "https://www.nakshatranamahacreations.com/blog/local-seo-complete-guide/",
         },
         publisher: {
             "@type": "Organization",
             name: "Nakshatra Namaha Creations",
             logo: {
                 "@type": "ImageObject",
-                url: "https://nakshatranamahacreations.com/media/logo.png",
+                url: "https://www.nakshatranamahacreations.com/media/logo.png",
             },
         },
         datePublished: "2025-15-05",
@@ -69,7 +69,7 @@ const LocalSEO = () => {
         mainEntityOfPage: {
             "@type": "WebPage",
             "@id":
-                "https://nakshatranamahacreations.com/blog/local-seo-complete-guide/",
+                "https://www.nakshatranamahacreations.com/blog/local-seo-complete-guide/",
         },
     };
 
@@ -136,7 +136,7 @@ fbq('track', 'PageView');`}
                                 Most people now rely on search engines like Google to find products and services near them. Whether it’s a nearby restaurant, a local plumber, or a shop down the street, customers expect to find quick and relevant results based on their location. Local SEO (Search Engine Optimization) is the strategy that helps businesses appear in these local search results, making it easier for nearby customers to discover and choose them.
                             </p> <br />
                             <p style={{ textAlign: "justify" }}>
-                                Unlike traditional SEO, which targets a wider or national audience,<a href="https://nakshatranamahacreations.com/"> local SEO focuses</a> specifically on attracting customers within a certain geographic area. For businesses with physical locations or those serving specific communities, mastering local SEO can greatly increase visibility, foot traffic, and sales. This guide will explain what local SEO is, why it matters, and how you can use it to grow your business effectively.
+                                Unlike traditional SEO, which targets a wider or national audience,<a href="https://www.nakshatranamahacreations.com/"> local SEO focuses</a> specifically on attracting customers within a certain geographic area. For businesses with physical locations or those serving specific communities, mastering local SEO can greatly increase visibility, foot traffic, and sales. This guide will explain what local SEO is, why it matters, and how you can use it to grow your business effectively.
 
                             </p>
 

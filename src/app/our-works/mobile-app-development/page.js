@@ -8,7 +8,7 @@ export const metadata = {
     "Mobile App Development, Mobile App Design, Android App Development, iOS App Development",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/our-works/mobile-app-development",
+      "https://www.nakshatranamahacreations.com/our-works/mobile-app-development",
   },
 };
 

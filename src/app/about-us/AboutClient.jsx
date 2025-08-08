@@ -25,8 +25,8 @@ const schemaMarkup = {
     {
       '@type': 'Organization',
       'name': 'Nakshatra Namaha Creations',
-      'url': 'https://nakshatranamahacreations.com/',
-      'logo': 'https://nakshatranamahacreations.com/media/nnclogo.png',
+      'url': 'https://www.nakshatranamahacreations.com/',
+      'logo': 'https://www.nakshatranamahacreations.com/media/nnclogo.png',
       'sameAs': [
         'https://www.facebook.com/Nakshatranamahacreations/',
         'https://www.linkedin.com/company/nakshatra-namaha-creation/',
@@ -51,8 +51,8 @@ const schemaMarkup = {
     {
       '@type': 'LocalBusiness',
       'name': 'Nakshatra Namaha Creations',
-      'image': 'https://nakshatranamahacreations.com/office-photo.jpg',
-      'url': 'https://nakshatranamahacreations.com/',
+      'image': 'https://www.nakshatranamahacreations.com/office-photo.jpg',
+      'url': 'https://www.nakshatranamahacreations.com/',
       'telephone': '+91-9900566466',
       'email': 'info@nakshatranamahacreations.com',
       'address': {
@@ -90,13 +90,13 @@ const schemaMarkup = {
           '@type': 'ListItem',
           'position': 1,
           'name': 'Home',
-          'item': 'https://nakshatranamahacreations.com/',
+          'item': 'https://www.nakshatranamahacreations.com/',
         },
         {
           '@type': 'ListItem',
           'position': 2,
           'name': 'About Us',
-          'item': 'https://nakshatranamahacreations.com/about-us',
+          'item': 'https://www.nakshatranamahacreations.com/about-us',
         },
       ],
     },

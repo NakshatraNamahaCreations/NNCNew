@@ -8,18 +8,18 @@ export const metadata = {
     "Mobile App Development Companies in Bangalore, App Development Bangalore, Best App Developers in Bangalore",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/blog/top-10-mobile-app-development-companies-in-bangalore",
+      "https://www.nakshatranamahacreations.com/blog/top-10-mobile-app-development-companies-in-bangalore",
   },
   openGraph: {
     title: "Top 10 Mobile App Development Companies in Bangalore",
     description:
       "Discover the top 10 mobile app development companies in Bangalore. Explore expert teams, innovative solutions and industry-leading services for your app project.",
-    url: "https://nakshatranamahacreations.com/blog/top-10-mobile-app-development-companies-in-bangalore",
+    url: "https://www.nakshatranamahacreations.com/blog/top-10-mobile-app-development-companies-in-bangalore",
     type: "website",
     siteName: "Nakshatra Namaha Creations",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
         width: 1200,
         height: 630,
         alt: "Top 10 Mobile App Development Companies in Bangalore",
@@ -31,7 +31,7 @@ export const metadata = {
     title: "Top 10 Mobile App Development Companies in Bangalore",
     description:
       "Discover the top 10 mobile app development companies in Bangalore. Explore expert teams, innovative solutions and industry-leading services for your app project.",
-    images: ["https://nakshatranamahacreations.com/media/logo.png"],
+    images: ["https://www.nakshatranamahacreations.com/media/logo.png"],
     site: "@nncbengaluru",
   },
 };

@@ -47,14 +47,14 @@ const AwsservicesForMobile = () => {
     author: {
       "@type": "Person",
       name: "Nakshatra Namaha Creations",
-      url: "https://nakshatranamahacreations.com/",
+      url: "https://www.nakshatranamahacreations.com/",
     },
     publisher: {
       "@type": "Organization",
       name: "Nakshatra Namaha Creations",
       logo: {
         "@type": "ImageObject",
-        url: "https://nakshatranamahacreations.com/media/logo.png",
+        url: "https://www.nakshatranamahacreations.com/media/logo.png",
       },
     },
     datePublished: "2025-05-30",
@@ -62,7 +62,7 @@ const AwsservicesForMobile = () => {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id":
-        "https://nakshatranamahacreations.com/blog/aws-services-for-mobile-app-development",
+        "https://www.nakshatranamahacreations.com/blog/aws-services-for-mobile-app-development",
     },
   };
 
@@ -81,52 +81,7 @@ const AwsservicesForMobile = () => {
   return (
     <div>
    
-        <title>Top 10 AWS Services for Mobile App Development 2025</title>
-        <meta
-          name="description"
-          content="Explore the top 10 AWS services used in mobile app development. Learn how Amplify, Cognito, Lambda, and more power secure, scalable apps in 2025 and beyond."
-        />
-        <meta
-          name="keywords"
-          content="AWS for mobile app development, Best AWS services for apps 2025, AWS Amplify for mobile apps, Serverless backend with AWS, Mobile app cloud services AWS"
-        ></meta>
-        <link
-          rel="canonical"
-          href="https://nakshatranamahacreations.com/blog/aws-services-for-mobile-app-development"
-        />
-
-        {/* Open Graph (OG) Tags */}
-
-        <meta
-          property="og:title"
-          content="Top 10 AWS Services for Mobile App Development 2025"
-        />
-        <meta
-          property="og:description"
-          content="Explore the top 10 AWS services used in mobile app development. Learn how Amplify, Cognito, Lambda, and more power secure, scalable apps in 2025 and beyond."
-        />
-        <meta
-          property="og:url"
-          content="https://nakshatranamahacreations.com/blog/aws-services-for-mobile-app-development"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Nakshatra Namaha Creations" />
-
-        {/* Twitter Card Tags */}
-        <meta name="twitter:card" content="Summary" />
-        <meta
-          name="twitter:title"
-          content="Top 10 AWS Services for Mobile App Development 2025"
-        />
-        <meta
-          name="twitter:description"
-          content="Explore the top 10 AWS services used in mobile app development. Learn how Amplify, Cognito, Lambda, and more power secure, scalable apps in 2025 and beyond."
-        />
-        <meta
-          name="twitter:image"
-          content="https://nakshatranamahacreations.com/media/logo.png"
-        />
-        <meta name="twitter:site" content="@nncbengaluru" />
+    
 
         {/* <!-- Meta Pixel Code --> */}
         <Script>
@@ -467,7 +422,7 @@ fbq('track', 'PageView');`}
                   </h2>
                   <p style={{ textAlign: "justify" }}>
                     Deploying AWS services in{" "}
-                    <span href="https://nakshatranamahacreations.com/mobile-app-development-company-in-bangalore">
+                    <span href="https://www.nakshatranamahacreations.com/mobile-app-development-company-in-bangalore">
                       mobile app development{" "}
                     </span>
                     involves several steps to ensure smooth integration and
@@ -577,7 +532,7 @@ fbq('track', 'PageView');`}
                   just getting started, AWS provides the infrastructure and
                   resources you need to bring your mobile app ideas to life. To
                   know more{" "}
-                  <span href="https://nakshatranamahacreations.com/">
+                  <span href="https://www.nakshatranamahacreations.com/">
                     connect with Nakshatra Namaha Creations.
                   </span>
                 </p>

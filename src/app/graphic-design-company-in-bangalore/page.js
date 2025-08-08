@@ -8,17 +8,17 @@ export const metadata = {
     "Graphic Design Company in Bangalore, Graphic Design Company Near Me, Graphic Designers in Bangalore, Graphic Designers Near Me, Graphic Designing Service in Bangalore",
   alternates: {
     canonical:
-      "https://nakshatranamahacreations.com/graphic-design-company-in-bangalore",
+      "https://www.nakshatranamahacreations.com/graphic-design-company-in-bangalore",
   },
   openGraph: {
     title: "Graphic Design Company in Bangalore | Logo, UI UX & More",
     description:
       "Expert Graphic Design Company in Bangalore specializing in logos, UI UX, banners, brochures, posters and other creative designs that enhance your brand identity.",
     type: "website", // Changed from "graphic design" to "website" for OG compliance
-    url: "https://nakshatranamahacreations.com/graphic-design-company-in-bangalore",
+    url: "https://www.nakshatranamahacreations.com/graphic-design-company-in-bangalore",
     images: [
       {
-        url: "https://nakshatranamahacreations.com/media/Group117.png",
+        url: "https://www.nakshatranamahacreations.com/media/Group117.png",
         width: 1200,
         height: 630,
         alt: "Graphic Design Company",
@@ -31,7 +31,7 @@ export const metadata = {
     title: "Graphic Design Company in Bangalore | Logo, UI UX & More",
     description:
       "Expert Graphic Design Company in Bangalore specializing in logos, UI UX, banners, brochures, posters and other creative designs that enhance your brand identity.",
-    images: ["https://nakshatranamahacreations.com/media/Group117.png"],
+    images: ["https://www.nakshatranamahacreations.com/media/Group117.png"],
     site: "@nncbengaluru",
     creator: "@nncbengaluru",
   },
